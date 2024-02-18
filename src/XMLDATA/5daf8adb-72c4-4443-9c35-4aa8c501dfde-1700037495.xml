@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?><article xmlns="http://docbook.org/ns/docbook" xmlns:cco="http://www.calenco.com/ns/configurator" xmlns:db="http://docbook.org/ns/docbook" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="fr" version="5.0">
+  <info>
+    <title>Développeur</title>
+    <author>
+      <personname>
+        <firstname>Rémi</firstname>
+        <surname>Lerolle</surname>
+      </personname>
+      <address><phone>+33 6 84 89 52 05</phone>
+<email>lerolle.remi@gmail.com</email>
+<uri annotations="portfolio :">http://rlerolle.free.fr</uri></address>
+    </author>
+  </info>
+  <section xml:id="section-profil">
+    <title>Profil</title>
+    <para/>
+  </section>
+  <section xml:id="section-formation">
+    <title>Formation</title>
+    <itemizedlist role="history" >
+      <listitem>
+        <simpara role="date"><date role="start">2019</date><date role="end">2022</date></simpara>
+        <simpara role="entitled">Certificat administrateur machines en réseau</simpara>
+        <simpara role="establishment">CNAM PACA</simpara>
+        <simpara>En cours d'obtention</simpara>
+      </listitem>
+      <listitem>
+        <simpara role="date"><date role="start">2016</date><date role="end">2017</date></simpara>
+        <simpara role="entitled">BTS SIO SLAM</simpara>
+        <simpara role="establishment">GRETA Montpellier</simpara>
+        <simpara><uri annotations="portfolio :">http://rlerolle.free.fr/sio/portfolio/</uri></simpara>
+      </listitem>
+      <listitem>
+        <simpara role="date"><date role="start">2012</date><date role="end">2013</date></simpara>
+        <simpara role="entitled">Perspective</simpara>
+        <simpara role="establishment">Cours du soir</simpara>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section xml:id="section-dev-client-lourd">
+    <title>Développement web back end</title>
+    <simpara/>
+  </section>
+  <section xml:id="section-experience">
+    <title>Expérience</title>
+    <itemizedlist role="history" >
+      <title/>
+      <listitem>
+        <simpara role="date"><date role="start">2019</date><date role="end">2022</date></simpara>
+        <simpara role="entitled">Certificat administrateur machines en réseau</simpara>
+        <simpara role="establishment">CNAM PACA</simpara>
+        <simpara>En cours d'obtention</simpara>
+      </listitem>
+      <listitem>
+        <simpara role="date"><date role="start">2016</date><date role="end">2017</date></simpara>
+        <simpara role="entitled">BTS SIO SLAM</simpara>
+        <simpara role="establishment">GRETA Montpellier</simpara>
+        <simpara><uri annotations="portfolio :">http://rlerolle.free.fr/sio/portfolio/</uri></simpara>
+      </listitem>
+      <listitem>
+        <simpara role="date"><date role="start">2012</date><date role="end">2013</date></simpara>
+        <simpara role="entitled">Perspective</simpara>
+        <simpara role="establishment">Cours du soir</simpara>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section xml:id="section-XML-XSL">
+    <title>XML / XLST</title>
+    <itemizedlist>
+      <listitem>
+        <simpara>Docbook</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Conception XSLT</simpara>
+      </listitem>
+      <listitem>
+        <simpara>XSL-FO</simpara>
+      </listitem>
+      <listitem>
+        <simpara>DTD, Schema</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Migration : </simpara>
+        <itemizedlist>
+          <listitem>
+            <simpara>Framemaker to docbook</simpara>
+          </listitem>
+          <listitem>
+            <simpara>dita to docbook</simpara>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section xml:id="front-end-dev">
+    <title>Développement web front end</title>
+    <itemizedlist>
+      <listitem>
+        <simpara>Javascript</simpara>
+      </listitem>
+      <listitem>
+        <simpara>React Redux</simpara>
+      </listitem>
+      <listitem>
+        <simpara>HTML/CSS</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Responsive design</simpara>
+      </listitem>
+      <listitem>
+        <simpara>SEO</simpara>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section xml:id="android-dev">
+    <title>Développement Android</title>
+    <itemizedlist>
+      <listitem>
+        <simpara>Jetpack Compose</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Kotlin</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Views Model</simpara>
+      </listitem>
+    </itemizedlist>
+  </section>
+  <section xml:id="section-graphisme">
+    <title>Graphisme</title>
+    <itemizedlist>
+      <listitem>
+        <simpara>Photoshop (chromie) / Flash(actionScript)</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Illustrator / Indesing + EasyCatalog</simpara>
+      </listitem>
+    </itemizedlist>
+  </section>
+</article>

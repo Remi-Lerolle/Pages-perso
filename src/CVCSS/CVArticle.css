@@ -1,0 +1,53 @@
+body{
+  color: darkslategrey;
+}
+
+.cvArticle{
+  padding: 2rem;
+}
+
+.cvSection{
+  margin-bottom: 2rem;
+}
+
+.history-list{
+  position: relative;
+}
+
+.history-stroke{
+  position: absolute;
+  z-index: 1;
+  left: 1rem;
+  top: 0px;
+  height: 100%;
+  border-left: 1px solid red;
+  width: 1rem;
+}
+
+.history-item{
+  position: relative;
+  z-index: 2;
+  margin-bottom: 3rem;
+  background-color: white;
+}
+
+.datePara{
+  font-size: .75rem;
+}
+
+.datePara__start,
+.datePara__end{
+  
+} 
+
+.hexagone{
+  position:absolute;
+  left: 0.5rem;
+  width: 2rem;
+}
+
+
+.section-title__First-letter{
+  color: red;
+  padding-right: 1rem;
+}
