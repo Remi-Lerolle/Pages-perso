@@ -13,7 +13,11 @@
   </info>
   <section xml:id="section-profil">
     <title>Profil</title>
-    <para/>
+    <simpara>8 années d’expérience dont 6 en entreprise et 2 en tant qu’autoentrepreneur.</simpara>
+    <simpara>Maîtrise du JavaScript, XSLT et Bash.</simpara>
+    <simpara>Analyse besoin / cahier des charges.</simpara>
+    <simpara>Relation client.</simpara>
+    <simpara>Rédaction documentation Utilisateur / développeur</simpara>
   </section>
   <section xml:id="section-formation">
     <title>Formation</title>

@@ -29,16 +29,12 @@ body{
   z-index: 2;
   margin-bottom: 3rem;
   background-color: white;
+  padding-left: 0;
 }
 
 .datePara{
   font-size: .75rem;
 }
-
-.datePara__start,
-.datePara__end{
-  
-} 
 
 .hexagone{
   position:absolute;
@@ -50,4 +46,10 @@ body{
 .section-title__First-letter{
   color: red;
   padding-right: 1rem;
+}
+
+.date{
+  font-size: 0.5rem;
+  color: var(--bs-gray);
+  padding-left: 0;
 }

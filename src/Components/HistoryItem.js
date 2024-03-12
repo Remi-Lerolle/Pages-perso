@@ -7,7 +7,6 @@ import EstablishmentPara from './EstablishmentPara';
 import Container from 'react-bootstrap/Container';
 
 function HistoryItem(props) {
-  console.log(props)
   const item = props.item;
   const datePara = item.querySelector("simpara[role='date']");
   const entitled = item.querySelector("simpara[role='entitled']");
@@ -16,8 +15,10 @@ function HistoryItem(props) {
   return (
     <Container>
       <Row className='history-item'>
-        <DatePara datePara={datePara} />
         <Col>
+          <DatePara datePara={datePara} />
+        </Col>
+        <Col xs={10} md={11}>
           {
             entitled
               ? <EntitledPara entitled={entitled} />

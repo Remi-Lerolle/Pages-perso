@@ -2,6 +2,8 @@ import React from "react";
 import HistoryList from "./HistoryList";
 import { Accordion } from "react-bootstrap";
 import hexagone from '../IMG/hexagone.svg';
+import Para from "./Para";
+import TextBody from "./TextBody";
 
 function CvSection( props ){
   const section = props.section;
@@ -10,6 +12,7 @@ function CvSection( props ){
   const titleFirstLetter = title.charAt(0);
   const titleReminder = title.substring(1);
   const history = section.querySelector("itemizedlist[role='history']");
+  const paras = section.querySelectorAll("simpara");
   
   return(
     <Accordion.Item eventKey={id} key={id} className="cvSection">
@@ -20,10 +23,14 @@ function CvSection( props ){
           <span>{titleReminder}</span>
 
         </Accordion.Header>
-      { history
-        ? <HistoryList history={history} sectionId={id} />
-        : ""  
+      { 
+        history
+          ? <HistoryList history={history} sectionId={id} />
+          : <TextBody listOfParas={paras} title={title} />
       }
+{/*       {
+        [...paras].map( (para, index) => <Para content={para} index={index} />)
+      } */}
     </Accordion.Item>
   )
 }
