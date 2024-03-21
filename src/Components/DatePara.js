@@ -5,8 +5,8 @@ import Row from 'react-bootstrap/Row';
 
 function DatePara(props) {
   const datePara = props.datePara;
-  const startDate = datePara.querySelector("date[role='start']").innerHTML;
-  const endDate = datePara.querySelector("date[role='end']").innerHTML;
+  const startDate = datePara.querySelector("date[role='start']")?.innerHTML;
+  const endDate = datePara.querySelector("date[role='end']")?.innerHTML;
 
 
   return (

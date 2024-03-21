@@ -20,13 +20,13 @@ function HistoryItem(props) {
         </Col>
         <Col xs={10} md={11}>
           {
-            entitled
-              ? <EntitledPara entitled={entitled} />
+            establishment
+              ? <EstablishmentPara establishment={establishment} />
               : ""
           }
           {
-            establishment
-              ? <EstablishmentPara establishment={establishment} />
+            entitled
+              ? <EntitledPara entitled={entitled} />
               : ""
           }
         </Col>

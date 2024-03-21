@@ -10,7 +10,7 @@ import Home from './Home';
 
 function App() {
   return (
-    <div className='container'>
+    <div className='container-fluid g-0'>
       <nav>
         <ul>    
           <Link to="/cv" className="list" >

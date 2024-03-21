@@ -53,3 +53,9 @@ body{
   color: var(--bs-gray);
   padding-left: 0;
 }
+
+
+.entitled{
+  color: var(--bs-gray);
+  font-size: 0.75rem;
+}

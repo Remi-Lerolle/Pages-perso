@@ -39,6 +39,17 @@
         <simpara role="entitled">Perspective</simpara>
         <simpara role="establishment">Cours du soir</simpara>
       </listitem>
+      <listitem>
+        <simpara role="date"><date role="start">2009</date></simpara>
+        <simpara role="entitled">P.O.O. aS3</simpara>
+        <simpara role="establishment">Pyramid</simpara>
+      </listitem>
+      <listitem>
+        <simpara role="date"><date role="start">2009</date><date role="end">2013</date></simpara>
+        <simpara role="entitled">inDesign</simpara>
+        <simpara role="establishment">Pyramid</simpara>
+      </listitem>
+
     </itemizedlist>
   </section>
   <section xml:id="section-dev-client-lourd">
