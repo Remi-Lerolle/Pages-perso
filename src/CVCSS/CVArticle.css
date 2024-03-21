@@ -17,7 +17,7 @@ body{
 .history-stroke{
   position: absolute;
   z-index: 1;
-  left: 1rem;
+  left: 1.75rem;
   top: 0px;
   height: 100%;
   border-left: 1px solid red;
@@ -27,7 +27,7 @@ body{
 .history-item{
   position: relative;
   z-index: 2;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   background-color: white;
   padding-left: 0;
 }
@@ -55,7 +55,12 @@ body{
 }
 
 
-.entitled{
+.history__establishment{
   color: var(--bs-gray);
   font-size: 0.75rem;
+  margin-bottom: 0;
+}
+
+.history__entitled{
+  margin-bottom: 0;
 }

@@ -15,18 +15,18 @@ function HistoryItem(props) {
   return (
     <Container>
       <Row className='history-item'>
-        <Col>
+        <Col className='g-0'>
           <DatePara datePara={datePara} />
         </Col>
-        <Col xs={10} md={11}>
-          {
-            establishment
-              ? <EstablishmentPara establishment={establishment} />
-              : ""
-          }
+        <Col xs={10} md={11}  className='g-0'>
           {
             entitled
               ? <EntitledPara entitled={entitled} />
+              : ""
+          }
+          {
+            establishment
+              ? <EstablishmentPara establishment={establishment} />
               : ""
           }
         </Col>

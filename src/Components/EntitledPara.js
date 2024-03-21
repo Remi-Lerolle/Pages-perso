@@ -2,7 +2,7 @@ import React from "react";
 
 function EntitledPara( props ){
   const entitled = props.entitled;
-  return  <p className="entitled">{entitled.innerHTML}</p>
+  return  <p className="history__entitled">{entitled.innerHTML}</p>
   
 }
 
