@@ -6,9 +6,6 @@ function TextBody(props){
   const paras = props.listOfParas;
   const title = props.title;
 
-  console.log("TextBody:");
-  console.log(paras);
-
   return(
     <AccordionBody>
       {

@@ -70,16 +70,21 @@
     <itemizedlist role="history" >
       <title/>
       <listitem>
-        <simpara role="date"><date role="start">2019</date><date role="end">2022</date></simpara>
-        <simpara role="entitled">Certificat administrateur machines en réseau</simpara>
-        <simpara role="establishment">CNAM PACA</simpara>
-        <simpara>En cours d'obtention</simpara>
+        <simpara role="date"><date role="start">aujourd’hui</date><date role="end">2022</date></simpara>
+        <simpara role="entitled">Développeur XSLT JavaScript</simpara>
+        <simpara role="establishment">Neodoc/Calenco</simpara>
+        <simpara role="description">Personnalisation des feuilles de style Docbook XML / XSLT.</simpara>
+        <simpara role="description">Migration.</simpara>
+        <simpara role="description">Développement studio générateur de XSLT</simpara>
+        <simpara role="description">Support client et interne</simpara>
+        <simpara role="description">Conception de tests</simpara>
+        <simpara role="description">Formations</simpara>
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2016</date><date role="end">2017</date></simpara>
-        <simpara role="entitled">BTS SIO SLAM</simpara>
-        <simpara role="establishment">GRETA Montpellier</simpara>
-        <simpara><uri annotations="portfolio :">http://rlerolle.free.fr/sio/portfolio/</uri></simpara>
+        <simpara role="entitled">Développeur XSLT JavaScript</simpara>
+        <simpara role="establishment">Neodoc/Calenco</simpara>
+        <simpara></simpara>
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2012</date><date role="end">2013</date></simpara>

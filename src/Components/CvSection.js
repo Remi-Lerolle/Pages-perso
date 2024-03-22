@@ -2,7 +2,6 @@ import React from "react";
 import HistoryList from "./HistoryList";
 import { Accordion } from "react-bootstrap";
 import hexagone from '../IMG/hexagone.svg';
-import Para from "./Para";
 import TextBody from "./TextBody";
 
 function CvSection( props ){
@@ -20,7 +19,7 @@ function CvSection( props ){
         <img src={hexagone} alt="hexagone" className="hexagone"/>
 
           <span className="section-title__First-letter">{titleFirstLetter}</span>
-          <span>{titleReminder}</span>
+          <span className="section-title__reminding-letters" >{titleReminder}</span>
 
         </Accordion.Header>
       { 
@@ -28,9 +27,6 @@ function CvSection( props ){
           ? <HistoryList history={history} sectionId={id} />
           : <TextBody listOfParas={paras} title={title} />
       }
-{/*       {
-        [...paras].map( (para, index) => <Para content={para} index={index} />)
-      } */}
     </Accordion.Item>
   )
 }

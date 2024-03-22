@@ -1,3 +1,7 @@
+:root{
+  --red-cv: #d22027;
+}
+
 body{
   color: darkslategrey;
 }
@@ -10,6 +14,27 @@ body{
   margin-bottom: 2rem;
 }
 
+.datePara{
+  font-size: .75rem;
+}
+
+.hexagone{
+  position:absolute;
+  left: 0.5rem;
+  width: 2.5rem;
+}
+
+.section-title__First-letter{
+  font-size: 1.5rem;
+  color:  var(--red-cv);
+}
+
+span.section-title__reminding-letters{
+  background-color: white;
+  z-index: 2;
+}
+
+/* History */
 .history-list{
   position: relative;
 }
@@ -20,7 +45,7 @@ body{
   left: 1.75rem;
   top: 0px;
   height: 100%;
-  border-left: 1px solid red;
+  border-left: 1px solid var(--red-cv);
   width: 1rem;
 }
 
@@ -28,32 +53,14 @@ body{
   position: relative;
   z-index: 2;
   margin-bottom: 1rem;
-  background-color: white;
   padding-left: 0;
 }
-
-.datePara{
-  font-size: .75rem;
-}
-
-.hexagone{
-  position:absolute;
-  left: 0.5rem;
-  width: 2rem;
-}
-
-
-.section-title__First-letter{
-  color: red;
-  padding-right: 1rem;
-}
-
 .date{
   font-size: 0.5rem;
   color: var(--bs-gray);
   padding-left: 0;
+  background-color: white;
 }
-
 
 .history__establishment{
   color: var(--bs-gray);
@@ -61,6 +68,20 @@ body{
   margin-bottom: 0;
 }
 
-.history__entitled{
+.history__entitled, .history__description{
   margin-bottom: 0;
+}
+
+.history__description{
+  font-size: 0.75rem;
+}
+
+/* bootrap override */
+.accordion-button:not(.collapsed){
+  background-color: white;
+}
+
+.accordion-button:focus {
+	border-color: white;
+	box-shadow: var(--bs-accordion-btn-focus-box-shadow);
 }

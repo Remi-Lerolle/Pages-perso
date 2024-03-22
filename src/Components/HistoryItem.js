@@ -4,6 +4,7 @@ import React from 'react';
 import DatePara from './DatePara';
 import EntitledPara from './EntitledPara';
 import EstablishmentPara from './EstablishmentPara';
+import DescriptionPara from './DescriptionPara';
 import Container from 'react-bootstrap/Container';
 
 function HistoryItem(props) {
@@ -11,14 +12,15 @@ function HistoryItem(props) {
   const datePara = item.querySelector("simpara[role='date']");
   const entitled = item.querySelector("simpara[role='entitled']");
   const establishment = item.querySelector("simpara[role='establishment']")
+  const descriptions = item.querySelectorAll("simpara[role='description']")
 
   return (
     <Container>
       <Row className='history-item'>
-        <Col className='g-0'>
+        <Col className='g-0' md={2}>
           <DatePara datePara={datePara} />
         </Col>
-        <Col xs={10} md={11}  className='g-0'>
+        <Col xs={10} md={10} className='g-0'>
           {
             entitled
               ? <EntitledPara entitled={entitled} />
@@ -27,6 +29,11 @@ function HistoryItem(props) {
           {
             establishment
               ? <EstablishmentPara establishment={establishment} />
+              : ""
+          }
+          {
+            descriptions
+              ? Array.from( descriptions ).map( description => <DescriptionPara description={description} /> )
               : ""
           }
         </Col>

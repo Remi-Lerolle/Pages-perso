@@ -8,7 +8,6 @@ class Cv extends React.Component{
   prom = getXML().then(
     xmlResponse => {
       this.setState( {xmlResponse} )
-      console.log( "xml received" );
     },
     responseStatusText => {
       console.err(responseStatusText);
