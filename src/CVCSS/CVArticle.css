@@ -4,6 +4,7 @@
 
 body{
   color: darkslategrey;
+  background-color: #f8f9fa;
 }
 
 .cvArticle{
@@ -31,6 +32,7 @@ body{
 
 span.section-title__reminding-letters{
   background-color: white;
+  position: relative;
   z-index: 2;
 }
 
@@ -43,7 +45,7 @@ span.section-title__reminding-letters{
   position: absolute;
   z-index: 1;
   left: 1.75rem;
-  top: 0px;
+  top: -10px;
   height: 100%;
   border-left: 1px solid var(--red-cv);
   width: 1rem;
@@ -55,6 +57,7 @@ span.section-title__reminding-letters{
   margin-bottom: 1rem;
   padding-left: 0;
 }
+
 .date{
   font-size: 0.5rem;
   color: var(--bs-gray);
@@ -77,11 +80,15 @@ span.section-title__reminding-letters{
 }
 
 /* bootrap override */
-.accordion-button:not(.collapsed){
-  background-color: white;
+.card{
+  border: none;
 }
 
-.accordion-button:focus {
-	border-color: white;
-	box-shadow: var(--bs-accordion-btn-focus-box-shadow);
+.card-header {
+  background-color: white;
+  border-bottom: none;
+}
+
+.card-body{
+  padding: 1rem;
 }

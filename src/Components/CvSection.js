@@ -1,6 +1,7 @@
 import React from "react";
 import HistoryList from "./HistoryList";
-import { Accordion } from "react-bootstrap";
+import { Accordion, Card } from "react-bootstrap";
+import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import hexagone from '../IMG/hexagone.svg';
 import TextBody from "./TextBody";
 
@@ -15,20 +16,39 @@ function CvSection( props ){
   
   return(
     <Accordion.Item eventKey={id} key={id} className="cvSection">
-      <Accordion.Header>
-        <img src={hexagone} alt="hexagone" className="hexagone"/>
-
-          <span className="section-title__First-letter">{titleFirstLetter}</span>
-          <span className="section-title__reminding-letters" >{titleReminder}</span>
-
-        </Accordion.Header>
+      <Card>
+        <Card.Header>
+          <CustomToggle eventKey={id} >
+            <img src={hexagone} alt="hexagone" className="hexagone"/>
+            <span className="section-title__First-letter">{titleFirstLetter}</span>
+            <span className="section-title__reminding-letters" >{titleReminder}</span>
+          </CustomToggle>
+        </Card.Header>
+      </Card>
       { 
         history
           ? <HistoryList history={history} sectionId={id} />
-          : <TextBody listOfParas={paras} title={title} />
+          : <TextBody listOfParas={paras} title={title} id={id} />
       }
     </Accordion.Item>
   )
+}
+
+
+function CustomToggle({ children, eventKey }) {
+  const decoratedOnClick = useAccordionButton(eventKey, () =>
+    console.log('totally custom!'),
+  );
+
+  return (
+    <button
+      type="button"
+      style={{ border:'none', backgroundColor: 'white'  }}
+      onClick={decoratedOnClick}
+    >
+      {children}
+    </button>
+  );
 }
 
 export default CvSection

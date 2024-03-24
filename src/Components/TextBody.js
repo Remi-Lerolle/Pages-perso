@@ -1,19 +1,22 @@
 import React from "react";
-import { AccordionBody } from "react-bootstrap";
+import { Accordion, Card } from "react-bootstrap";
 import Para from "./Para";
 
 function TextBody(props){
   const paras = props.listOfParas;
   const title = props.title;
+  const id = props.id;
 
   return(
-    <AccordionBody>
-      {
-        [...paras].map( (para,index) => {
-          return <Para content={para} key={`${title}-${index}`} />
-        })
-      }
-    </AccordionBody>
+    <Accordion.Collapse eventKey={id}>
+      <Card.Body>
+        {
+          [...paras].map( (para,index) => {
+            return <Para content={para} key={`${title}-${index}`} />
+          })
+        }
+      </Card.Body>
+    </Accordion.Collapse>
   )
 }
 
