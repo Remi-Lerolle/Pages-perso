@@ -10,7 +10,7 @@ import Container from 'react-bootstrap/Container';
 function HistoryItem(props) {
   const item = props.item;
   const datePara = item.querySelector("simpara[role='date']");
-  const entitled = item.querySelector("simpara[role='entitled']");
+  const entitled = item.querySelectorAll("simpara[role='entitled']");
   const establishment = item.querySelector("simpara[role='establishment']")
   const descriptions = item.querySelectorAll("simpara[role='description']")
 
@@ -23,7 +23,7 @@ function HistoryItem(props) {
         <Col xs={10} md={10} className='g-0'>
           {
             entitled
-              ? <EntitledPara entitled={entitled} />
+              ? Array.from(entitled).map( e => <EntitledPara entitled={e} />)
               : ""
           }
           {

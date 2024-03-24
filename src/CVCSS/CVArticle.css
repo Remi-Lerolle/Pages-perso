@@ -69,14 +69,17 @@ span.section-title__reminding-letters{
   color: var(--bs-gray);
   font-size: 0.75rem;
   margin-bottom: 0;
+  background-color: white;
 }
 
 .history__entitled, .history__description{
   margin-bottom: 0;
+  background-color: white;
 }
 
 .history__description{
   font-size: 0.75rem;
+  background-color: white;
 }
 
 /* bootrap override */
