@@ -71,7 +71,7 @@
     <itemizedlist role="history" >
       <title/>
       <listitem>
-        <simpara role="date"><date role="start">aujourd’hui</date><date role="end">2022</date></simpara>
+        <simpara role="date"><date role="start">aujourd’hui</date><date role="end">2017</date></simpara>
         <simpara role="entitled">Développeur XSLT JavaScript</simpara>
         <simpara role="establishment">Neodoc/Calenco</simpara>
         <simpara role="description">Personnalisation des feuilles de style Docbook XML / XSLT.</simpara>

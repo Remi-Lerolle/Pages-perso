@@ -46,7 +46,7 @@ span.section-title__reminding-letters{
   z-index: 1;
   left: 1.75rem;
   top: -10px;
-  height: 100%;
+  height:calc(100% + 10px);
   border-left: 1px solid var(--red-cv);
   width: 1rem;
 }
