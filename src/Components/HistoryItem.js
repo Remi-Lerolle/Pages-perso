@@ -8,11 +8,8 @@ import DescriptionPara from './DescriptionPara';
 import Container from 'react-bootstrap/Container';
 
 function HistoryItem(props) {
-  const item = props.item;
-  const datePara = item.querySelector("simpara[role='date']");
-  const entitled = item.querySelectorAll("simpara[role='entitled']");
-  const establishment = item.querySelector("simpara[role='establishment']")
-  const descriptions = item.querySelectorAll("simpara[role='description']")
+  const listOfParas = props.item.querySelectorAll("simpara:not([role=\'date\'])");
+  const datePara = props.item.querySelector("simpara[role='date']");
 
   return (
     <Container>
@@ -22,19 +19,16 @@ function HistoryItem(props) {
         </Col>
         <Col xs={10} md={10} className='g-0'>
           {
-            entitled
-              ? Array.from(entitled).map( e => <EntitledPara entitled={e} />)
-              : ""
-          }
-          {
-            establishment
-              ? <EstablishmentPara establishment={establishment} />
-              : ""
-          }
-          {
-            descriptions
-              ? Array.from( descriptions ).map( description => <DescriptionPara description={description} /> )
-              : ""
+            Array.from(listOfParas).map( (para, index) => {
+              switch (para.getAttribute( "role" ) ){
+                case "entitled":
+                  return <EntitledPara entitled={para} key={`historyItem-${index}`}/>
+                case "establishment":
+                  return <EstablishmentPara establishment={para}  key={`historyItem-${index}`}/>
+                case "description":
+                  return <DescriptionPara description={para}  key={`historyItem-${index}`}/>
+              } 
+            })
           }
         </Col>
       </Row>

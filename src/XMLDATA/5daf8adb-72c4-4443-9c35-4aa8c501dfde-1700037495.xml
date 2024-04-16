@@ -72,8 +72,8 @@
       <title/>
       <listitem>
         <simpara role="date"><date role="start">aujourd’hui</date><date role="end">2017</date></simpara>
-        <simpara role="entitled">Développeur XSLT JavaScript</simpara>
         <simpara role="establishment">Neodoc/Calenco</simpara>
+        <simpara role="entitled">Développeur XSLT JavaScript</simpara>
         <simpara role="description">Personnalisation des feuilles de style Docbook XML / XSLT.</simpara>
         <simpara role="description">Migration.</simpara>
         <simpara role="description">Développement studio générateur de XSLT</simpara>
@@ -83,50 +83,50 @@
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2017</date><date role="end">2015</date></simpara>
-        <simpara role="entitled">Auto entrepreneur webMaster</simpara>
         <simpara role="establishment">Palavas Design</simpara>
+        <simpara role="entitled">Auto entrepreneur webMaster</simpara>
         <simpara role="description">Conception de sites Web.</simpara>
         <simpara></simpara>
       </listitem>
       <listitem>
-        <simpara role="date"><date role="start">2014</date><date role="end">2015</date></simpara>
-        <simpara role="entitled">Développeur wordpress / EasyCatalog</simpara>
+        <simpara role="date"><date role="start">2015</date><date role="end">2014</date></simpara>
         <simpara role="establishment">Cryopep</simpara>
+        <simpara role="entitled">Développeur wordpress / EasyCatalog</simpara>
         <simpara role="description">Cross Media designer : Site et catalogues</simpara>
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2014</date></simpara>
-        <simpara role="entitled">Graphiste Easy-Catalog/inDesign</simpara>
         <simpara role="establishment">CompilSoft</simpara>
+        <simpara role="entitled">Graphiste Easy-Catalog/inDesign</simpara>
         <simpara role="description">Création de gabarits inDesign pour importation données ODBC</simpara>
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2014</date><date role="end">2012</date></simpara>
-        <simpara role="entitled">Référent client</simpara>
-        <simpara role="entitled">Graphiste éxé print / web / PLV</simpara>
-        <simpara role="entitled">Chromiste presse hebdo</simpara>
         <simpara role="establishment">Compos-Juliot</simpara>
-        <simpara role="description">Gestion d’une équipe de 4 à 10 personnes destinée au marketing de Disneyland Paris</simpara>
+        <simpara role="entitled">Référent client</simpara>
+        <simpara role="description">Gestion d’une équipe de 4 à 10 personnes assignés au marketing de Disneyland Paris</simpara>
         <simpara role="description">Enregistrement des demandes, distribution des dossiers, contact clientèle.</simpara>
+        <simpara role="entitled">Graphiste éxé print / web / PLV</simpara>
         <simpara role="description">Newsletters, landingPages,  animation Flash (bannières pubs).</simpara>
+        <simpara role="entitled">Chromiste presse hebdo</simpara>
         <simpara role="description">Pré-presse et retouche photo.</simpara>
       </listitem>
       <listitem>
-        <simpara role="date"><date role="start">2000</date><date role="end">2003</date></simpara>
-        <simpara role="entitled">Chromiste presse hebdo</simpara>
+        <simpara role="date"><date role="start">2003</date><date role="end">2000</date></simpara>
         <simpara role="establishment">Unipag</simpara>
+        <simpara role="entitled">Chromiste presse hebdo</simpara>
         <simpara role="description">Pré-presse et retouche photo.</simpara>
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2000</date><date role="end">2000</date></simpara>
-        <simpara role="entitled">Infographiste P.L.V.</simpara>
         <simpara role="establishment">Objectif 109</simpara>
+        <simpara role="entitled">Infographiste P.L.V.</simpara>
         <simpara role="description">Packaging - Retouche photo - Habillage meubles et stands</simpara>
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2000</date><date role="end">1999</date></simpara>
-        <simpara role="entitled">Assistant maquettiste</simpara>
         <simpara role="establishment">Journal BUT!</simpara>
+        <simpara role="entitled">Assistant maquettiste</simpara>
         <simpara role="description">Scan et mise en page</simpara>
       </listitem>
     </itemizedlist>
