@@ -8,7 +8,7 @@ import DescriptionPara from './DescriptionPara';
 import Container from 'react-bootstrap/Container';
 
 function HistoryItem(props) {
-  const listOfParas = props.item.querySelectorAll("simpara:not([role=\'date\'])");
+  const listOfParas = props.item.querySelectorAll("simpara:not([role='date'])");
   const datePara = props.item.querySelector("simpara[role='date']");
 
   return (
@@ -27,6 +27,8 @@ function HistoryItem(props) {
                   return <EstablishmentPara establishment={para}  key={`historyItem-${index}`}/>
                 case "description":
                   return <DescriptionPara description={para}  key={`historyItem-${index}`}/>
+                default:
+                  return <></>
               } 
             })
           }
