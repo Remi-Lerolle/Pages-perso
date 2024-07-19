@@ -1,6 +1,6 @@
 import React from "react";
 import CvSection from "./CvSection";
-import CVArticle from "../CVCSS/CVArticle.css"
+import CVArticleStyles from "../../../CVCSS/CVArticle-Styles.css"
 import { Accordion, Container } from "react-bootstrap";
 
 function CvArticle(props){

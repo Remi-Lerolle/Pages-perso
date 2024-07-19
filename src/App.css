@@ -19,5 +19,13 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #5e3501;
+}
+
+.list{
+  color:rgb(100, 69, 2);
+}
+
+.list:hover{
+  color:rgb(211, 204, 189);
 }
