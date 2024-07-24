@@ -1,5 +1,5 @@
 import React from 'react';
-import XMLdata from "./XMLDATA/5daf8adb-72c4-4443-9c35-4aa8c501dfde-1700037495.xml";
+import XMLdata from "../../XMLDATA/cv-rl-fr.xml";
 import CvArticle from './CvArticle';
 
 class Cv extends React.Component{

@@ -2,7 +2,7 @@ import React from "react";
 import HistoryList from "./HistoryList";
 import { Accordion, Card } from "react-bootstrap";
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
-import hexagone from '../../../IMG/hexagone.svg';
+import hexagone from '../../IMG/hexagone.svg';
 import TextBody from "./TextBody";
 
 function CvSection( props ){

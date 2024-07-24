@@ -28,7 +28,7 @@ function HistoryItem(props) {
                 case "description":
                   return <DescriptionPara description={para}  key={`historyItem-${index}`}/>
                 default:
-                  return <></>
+                  return <div key={`empty${index}`}></div>
               } 
             })
           }
