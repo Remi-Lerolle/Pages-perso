@@ -9,12 +9,14 @@ const resources = {
     translation: {
       "Welcome to React": "Welcome to React and react-i18next",
       "RL.personnal.web.pages": "Rémi Lerolle Personal Web Pages",
+      "CV.RL": "Curriculum Vitæ of Rémi Lerolle",
     }
   },
   fr: {
     translation: {
       "Welcome to React": "Bienvenue à React et react-i18next",
       "RL.personnal.web.pages": "Page perso de Rémi Lerolle",
+      "CV.RL": "Curriculum Vitæ de Rémi Lerolle",
     }
   }
 };

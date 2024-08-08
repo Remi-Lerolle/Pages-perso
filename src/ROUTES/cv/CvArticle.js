@@ -13,8 +13,7 @@ function CvArticle(props){
   const surName = author.querySelector("personname surname");
   const sectionsList = xml.querySelectorAll( "section" ); 
   
-  return( <Container className="cvArticle">
-    <h1>Curriculum Vitae de  {firstName.innerHTML} {surName.innerHTML}</h1>
+  return(
     <Accordion defaultActiveKey="0">
       {
         Array.from(sectionsList).map( section => {
@@ -22,7 +21,6 @@ function CvArticle(props){
         })
       }
     </Accordion>
-    </Container>
   )
 }
 
