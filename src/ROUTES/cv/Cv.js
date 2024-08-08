@@ -4,7 +4,6 @@ import XMLdataEn from "../../XMLDATA/cv-rl-en.xml";
 import CvArticle from './CvArticle';
 import {LangContext} from '../../App.js'
 
-
 export default function Cv(){
   const lang = useContext(LangContext);
   const [xmlData, setXMLData] = useState(null)
