@@ -5,6 +5,7 @@ import { Link, Route, Routes, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, ButtonGroup, Container, Navbar } from 'react-bootstrap';
 
+import i18n from './Translation/i18n';
 import Cv from './ROUTES/cv/Cv';
 import PortfolioHome from './ROUTES/PortfolioHome';
 import Home from './ROUTES/Home';
@@ -16,6 +17,7 @@ function App() {
   const location = useLocation();
 
   const [lang, setLangState] = useState("fr");
+  i18n.changeLanguage(lang)
 
   function handleClickLang(langValue) {
     setLangState(langValue);
@@ -27,10 +29,10 @@ function App() {
         <Navbar>
           <Navbar.Collapse id="basic-navbar-nav">
             <Link to="/home" className="list" >
-              Home
+              {i18n.t('Home')}
             </Link>
             <Link to="/cv" className="list" >
-              Curriculum Vitae
+              {i18n.t('Resume')}
             </Link>
             <Link to="/portfolio-home" className="list" >
               Portfolio
