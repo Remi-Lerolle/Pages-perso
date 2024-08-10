@@ -3,13 +3,14 @@ import React from 'react';
 import { createContext, useState } from 'react';
 import { Link, Route, Routes, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, ButtonGroup, Container, Navbar, NavDropdown } from 'react-bootstrap';
+import { Button, ButtonGroup, Container, Navbar, Dropdown } from 'react-bootstrap';
 
 import i18n from './Translation/i18n';
 import Cv from './ROUTES/cv/Cv';
 import PortfolioHome from './ROUTES/PortfolioHome';
 import Home from './ROUTES/Home';
 import Formalizz from './ROUTES/portfolio/Formalizz';
+import PortfolioCV from './ROUTES/portfolio/PortfolioCV';
 
 export const LangContext = createContext(null);
 
@@ -35,26 +36,45 @@ function App() {
             <Link to="/cv" className="list" >
               {i18n.t('Resume')}
             </Link>
-            <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-              <Link to="/portfolio-home" className="list" >
-                Portfolio
-              </Link>
-              <NavDropdown.Item href="#action/3.1">
-              </NavDropdown.Item>
-                <Link to="/portfolio/Formalizz" className="list" >
-                  Formalizz
+
+            <Dropdown as={ButtonGroup} >
+              <Button className='bg-transparent border-0 App-link'>
+                <Link 
+                  to="/portfolio-home" 
+                  className='App-link'
+                  style={{"color": "#5e3501"}} 
+                  >
+                  Portfolio
                 </Link>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            </NavDropdown>
+              </Button>
+
+              <Dropdown.Toggle
+                className="bg-transparent border-0 App-link"
+
+                style={{"color": "#5e3501"}} 
+                id="dropdown-split-basic" />
+
+              <Dropdown.Menu>
+                <Dropdown.Item href="#/action-1">
+                  <Link to="/portfolio/Formalizz" className="list" >
+                    Formalizz
+                  </Link>
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-2">
+                  <Link to="/portfolio/PortfolioCV" className="list" >
+                    CV
+                  </Link>
+                </Dropdown.Item>
+
+              </Dropdown.Menu>
+            </Dropdown>
+
           </Navbar.Collapse>
 
           <ButtonGroup className='mb-2 me-5'>
             <Button
               variant={lang === "fr" ? "primary" : "secondary"}
-              onClick={() =>handleClickLang("fr")}>fr</Button>
+              onClick={() => handleClickLang("fr")}>fr</Button>
             <Button
               variant={lang === "en" ? "primary" : "secondary"}
               onClick={() => handleClickLang("en")} >en</Button>
@@ -63,9 +83,10 @@ function App() {
 
         <Routes>
           <Route path="/home" element={<Home />} />
-          <Route path="/cv" element={<Cv/>} />
+          <Route path="/cv" element={<Cv />} />
           <Route path="/portfolio-home" element={<PortfolioHome />} />
           <Route path="/portfolio/Formalizz" element={<Formalizz />} />
+          <Route path="/portfolio/PortfolioCV" element={<PortfolioCV />} />
         </Routes>
 
       </Container>

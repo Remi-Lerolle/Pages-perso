@@ -1,3 +1,7 @@
+root{
+  --nav-text-color: #5e3501;
+}
+
 .App {
   text-align: center;
 }
@@ -19,7 +23,12 @@
 }
 
 .App-link {
-  color: #5e3501;
+  color: var(--nav-text-color);
+  text-decoration: none;
+}
+
+.App-link:visited {
+  color: var(--nav-text-color);
 }
 
 .list{
