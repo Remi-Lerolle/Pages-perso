@@ -1,5 +1,6 @@
-root{
+:root{
   --nav-text-color: #5e3501;
+  --nav-bg-color: #b8860b;
 }
 
 .App {
@@ -32,9 +33,17 @@ root{
 }
 
 .list{
-  color:rgb(100, 69, 2);
+  color:var(--nav-text-color);
 }
 
 .list:hover{
-  color:rgb(211, 204, 189);
+  color:var(--nav-text-color);
+}
+
+.navBar-dropdown,
+.dropdown-menu,
+.dropdown-item{
+  color: var(--nav-text-color)!important;
+  background-color: var(--nav-bg-color)!important;
+  border: none !important;
 }

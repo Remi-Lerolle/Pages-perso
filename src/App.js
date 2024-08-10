@@ -3,7 +3,7 @@ import React from 'react';
 import { createContext, useState } from 'react';
 import { Link, Route, Routes, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, ButtonGroup, Container, Navbar, Dropdown } from 'react-bootstrap';
+import { Button, ButtonGroup, Container, Navbar, NavDropdown } from 'react-bootstrap';
 
 import i18n from './Translation/i18n';
 import Cv from './ROUTES/cv/Cv';
@@ -37,37 +37,29 @@ function App() {
               {i18n.t('Resume')}
             </Link>
 
-            <Dropdown as={ButtonGroup} >
-              <Button className='bg-transparent border-0 App-link'>
-                <Link 
-                  to="/portfolio-home" 
-                  className='App-link'
-                  style={{"color": "#5e3501"}} 
-                  >
-                  Portfolio
-                </Link>
-              </Button>
-
-              <Dropdown.Toggle
-                className="bg-transparent border-0 App-link"
-
-                style={{"color": "#5e3501"}} 
-                id="dropdown-split-basic" />
-
-              <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">
-                  <Link to="/portfolio/Formalizz" className="list" >
-                    Formalizz
-                  </Link>
-                </Dropdown.Item>
-                <Dropdown.Item href="#/action-2">
-                  <Link to="/portfolio/PortfolioCV" className="list" >
-                    CV
-                  </Link>
-                </Dropdown.Item>
-
-              </Dropdown.Menu>
-            </Dropdown>
+            <NavDropdown 
+              title="Portfolio"
+              className='navBar-dropdown'>
+              <NavDropdown.Item
+                as={Link}
+                className='App-link'
+                to="/portfolio-home">
+                Portfolio Home
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item
+                as={Link}
+                className='App-link'
+                to="/portfolio/PortfolioCV">
+                PortfolioCV
+              </NavDropdown.Item>
+              <NavDropdown.Item  
+                className='App-link'
+                as={Link}
+                to="/portfolio/Formalizz">
+                Formalizz
+              </NavDropdown.Item>
+            </NavDropdown>
 
           </Navbar.Collapse>
 
