@@ -1,19 +1,15 @@
-import { React, useContext } from 'react';
-import { Container } from 'react-bootstrap';
-import { Techno } from "../../Classes/TechnoClasses"
+import React from 'react';
+import { ProjectDataClass } from "../../Classes/ProjectDataClass"
+import { Project } from './Project';
 
-export default function Formalizz() {
-  let techno = new Techno();
-  techno.addTechnoFromList( [ "PHP", "SQL"])
 
-  return (
-    <>
-    <Container>
-      <h1>Formalizz</h1>
-    </Container>
-    <Container>
-
-    </Container>
-    </>
+export function Formalizz( data ){
+  return(
+    <Project data={FormalizzData} />
   )
 }
+
+export const FormalizzData = new ProjectDataClass( 
+  "Formalizz", //title
+  [ "PHP", "SQL"] //technoList
+)

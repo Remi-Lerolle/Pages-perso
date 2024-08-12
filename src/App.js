@@ -7,9 +7,9 @@ import { Button, ButtonGroup, Container, Navbar, NavDropdown } from 'react-boots
 
 import i18n from './Translation/i18n';
 import Cv from './ROUTES/cv/Cv';
-import PortfolioHome from './ROUTES/PortfolioHome';
+import PortfolioHome from './ROUTES/portfolio/PortfolioHome';
 import Home from './ROUTES/Home';
-import Formalizz from './ROUTES/portfolio/Formalizz';
+import {Formalizz} from './ROUTES/portfolio/Formalizz';
 import PortfolioCV from './ROUTES/portfolio/PortfolioCV';
 
 export const LangContext = createContext(null);
