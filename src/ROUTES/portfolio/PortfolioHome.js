@@ -1,9 +1,12 @@
 import React from "react";
-import { Container, Card, Button, Badge } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import {FormalizzData} from "./Formalizz";
+import {PortfolioCVData} from "./PortfolioCV";
 import { ProjectCard } from "./Project";
 
 function PortfolioHome() {
+
+  const projectList = [ FormalizzData, PortfolioCVData];
 
   return (
     <>
@@ -11,7 +14,17 @@ function PortfolioHome() {
         <h1>porfolio home</h1>
       </Container>
       <Container>
-        <ProjectCard data={FormalizzData} />
+        <Row>
+          {
+            projectList.map( projectData => {
+              return (
+                  <ProjectCard                
+                    data={projectData} 
+                    key={`projectCard-${projectData.title}`}/>
+              )
+            })
+          }
+        </Row>
       </Container>
     </>
   )
