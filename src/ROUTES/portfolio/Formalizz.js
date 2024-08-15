@@ -1,6 +1,7 @@
 import React from 'react';
-import { ProjectDataClass } from "../../Classes/ProjectDataClass"
+import { ProjectDataClass } from "../../Classes/ProjectDataClass.tsx"
 import { Project } from './Project';
+import LogoRPDrancy from "../../IMG/Logo_Captain-Pare-Brise.png"
 
 
 export function Formalizz( data ){
@@ -10,6 +11,8 @@ export function Formalizz( data ){
 }
 
 export const FormalizzData = new ProjectDataClass( 
-  "Formalizz", //title
-  [ "PHP", "SQL"] //technoList
+  { "title": "Formalizz",
+   "technoList": [ "PHP", "SQL"],
+   "imgUrl": LogoRPDrancy
+  }
 )

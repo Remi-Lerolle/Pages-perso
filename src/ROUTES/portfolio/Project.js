@@ -17,9 +17,11 @@ export function Project({data}) {
 export function ProjectCard({ data }) {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
+      <Card.Header>
         <Card.Title>{data.title}</Card.Title>
+      </Card.Header>
+      <Card.Img variant="top" src={data.imgUrl} />
+      <Card.Body>
         <Stack direction="horizontal" gap={2}>
           {data.technoList.map(
             t => {

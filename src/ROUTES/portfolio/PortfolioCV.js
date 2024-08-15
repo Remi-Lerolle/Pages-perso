@@ -1,5 +1,5 @@
 import {React, useContext} from 'react';
-import { ProjectDataClass } from "../../Classes/ProjectDataClass"
+import { ProjectDataClass } from "../../Classes/ProjectDataClass.tsx"
 
 export default function PortfolioCV(){
   return(
@@ -8,6 +8,6 @@ export default function PortfolioCV(){
 }
 
 export const PortfolioCVData = new ProjectDataClass(
-  "Pages Perso",
-  [ "React", "CSS", "Bootstrap"]
+  { "title": "Pages Perso",
+  "technoList":[ "React", "CSS", "Bootstrap"]}
 )

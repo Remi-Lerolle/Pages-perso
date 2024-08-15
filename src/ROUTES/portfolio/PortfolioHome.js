@@ -18,9 +18,11 @@ function PortfolioHome() {
           {
             projectList.map( projectData => {
               return (
+                <Col>
                   <ProjectCard                
                     data={projectData} 
                     key={`projectCard-${projectData.title}`}/>
+                </Col>
               )
             })
           }
