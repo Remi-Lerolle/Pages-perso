@@ -13,6 +13,7 @@ export function Formalizz( data ){
 export const FormalizzData = new ProjectDataClass( 
   { "title": "Formalizz",
    "technoList": [ "PHP", "SQL"],
-   "imgUrl": LogoRPDrancy
+   "imgUrl": LogoRPDrancy,
+   "projectPath": "/portfolio/Formalizz"
   }
 )

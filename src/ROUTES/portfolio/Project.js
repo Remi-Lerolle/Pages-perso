@@ -1,5 +1,6 @@
 import React from 'react';
 import { Badge, Button, Card, Container, Stack } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 export function Project({data}) {
@@ -32,7 +33,11 @@ export function ProjectCard({ data }) {
               )
             })}
             </Stack>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="secondary">
+          <Link to={data.projectPath} >
+            {data.title}
+          </Link>
+        </Button>
       </Card.Body>
     </Card>
 

@@ -1,13 +1,15 @@
 interface ProjectDataProps{
   title: string,
   technoList: string[],
-  imgUrl: any
+  imgUrl: any,
+  projectPath: string
 }
 
 export class ProjectDataClass{
   title: string;
   technoList: string[] = [];
   imgUrl: any;
+  projectPath: string;
 
   constructor( props: ProjectDataProps ){
 
@@ -25,8 +27,9 @@ export class ProjectDataClass{
     })
 
     this.imgUrl = props.imgUrl
+    this.projectPath = props.projectPath;
   }
 
 }
 
-const authorizedTechnoList = ["PHP", "SQL", "React", "Bootstrap", "CSS"]
+const authorizedTechnoList = ["PHP", "SQL", "React", "Bootstrap", "CSS", "XSL", "API"]

@@ -2,11 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {FormalizzData} from "./Formalizz";
 import {PortfolioCVData} from "./PortfolioCV";
+import { StudioXSLDataClass } from "./StudioXSL"
 import { ProjectCard } from "./Project";
+import { Routes } from "react-router-dom";
 
 function PortfolioHome() {
 
-  const projectList = [ FormalizzData, PortfolioCVData];
+  const projectList = [ FormalizzData, PortfolioCVData, StudioXSLDataClass];
 
   return (
     <>
@@ -18,10 +20,9 @@ function PortfolioHome() {
           {
             projectList.map( projectData => {
               return (
-                <Col>
+                <Col key={`projectCard-${projectData.title}`}>
                   <ProjectCard                
-                    data={projectData} 
-                    key={`projectCard-${projectData.title}`}/>
+                    data={projectData} />
                 </Col>
               )
             })

@@ -11,6 +11,7 @@ import PortfolioHome from './ROUTES/portfolio/PortfolioHome';
 import Home from './ROUTES/Home';
 import {Formalizz} from './ROUTES/portfolio/Formalizz';
 import PortfolioCV from './ROUTES/portfolio/PortfolioCV';
+import StudioXSL from './ROUTES/portfolio/StudioXSL';
 
 export const LangContext = createContext(null);
 
@@ -59,6 +60,12 @@ function App() {
                 to="/portfolio/Formalizz">
                 Formalizz
               </NavDropdown.Item>
+              <NavDropdown.Item  
+                className='App-link'
+                as={Link}
+                to="/portfolio/StudioXSL">
+                Studio XSL
+              </NavDropdown.Item>
             </NavDropdown>
 
           </Navbar.Collapse>
@@ -79,6 +86,7 @@ function App() {
           <Route path="/portfolio-home" element={<PortfolioHome />} />
           <Route path="/portfolio/Formalizz" element={<Formalizz />} />
           <Route path="/portfolio/PortfolioCV" element={<PortfolioCV />} />
+          <Route path="/portfolio/StudioXSL" element={<StudioXSL />} />
         </Routes>
 
       </Container>
