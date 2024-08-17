@@ -33,8 +33,11 @@ export function ProjectCard({ data }) {
               )
             })}
             </Stack>
-        <Button variant="secondary">
-          <Link to={data.projectPath} >
+        <Button className="bg-info border-0 mt-2">
+          <Link
+            className='text-white text-decoration-none'            
+            to={data.projectPath} 
+            >
             {data.title}
           </Link>
         </Button>
