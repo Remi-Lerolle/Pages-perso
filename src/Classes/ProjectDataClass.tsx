@@ -2,7 +2,8 @@ interface ProjectDataProps{
   title: string,
   technoList: string[],
   imgUrl: any,
-  projectPath: string
+  projectPath: string,
+  description: string
 }
 
 export class ProjectDataClass{
@@ -10,6 +11,7 @@ export class ProjectDataClass{
   technoList: string[] = [];
   imgUrl: any;
   projectPath: string;
+  description: string;
 
   constructor( props: ProjectDataProps ){
 
@@ -28,6 +30,7 @@ export class ProjectDataClass{
 
     this.imgUrl = props.imgUrl
     this.projectPath = props.projectPath;
+    this.description = props.description;
   }
 
 }

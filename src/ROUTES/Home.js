@@ -5,7 +5,7 @@ import {LangContext} from '../App.js'
 
 function Home() {
   const lang = useContext(LangContext);
-  i18n.changeLanguage(lang)
+  i18n.changeLanguage(lang);
 
   return (
     <Container >

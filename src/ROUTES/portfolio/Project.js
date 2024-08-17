@@ -1,16 +1,23 @@
-import React from 'react';
-import { Badge, Button, Card, Container, Stack } from 'react-bootstrap';
+import React, {useContext} from 'react';
+import { Badge, Button, Card, Container, Stack, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import i18n from '../../Translation/i18n';
+import {LangContext} from '../../App.js'
 
 
 export function Project({data}) {
+  const lang = useContext(LangContext);
+  i18n.changeLanguage(lang);
 
   return (<>
     <Container>
       <h1>{data.title}</h1>
     </Container>
     <Container>
-
+      <Image src={data.imgUrl} />
+    </Container>
+    <Container>
+      {i18n.t(data.description)}
     </Container>
   </>)
 }

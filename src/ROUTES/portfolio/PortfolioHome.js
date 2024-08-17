@@ -4,7 +4,6 @@ import {FormalizzData} from "./Formalizz";
 import {PortfolioCVData} from "./PortfolioCV";
 import { StudioXSLDataClass } from "./StudioXSL"
 import { ProjectCard } from "./Project";
-import { Routes } from "react-router-dom";
 
 function PortfolioHome() {
 
