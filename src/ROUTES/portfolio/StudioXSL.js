@@ -11,6 +11,7 @@ export default function StudioXSL(){
 export const StudioXSLDataClass = new ProjectDataClass(
   { "title": "Studio XSL",
   "technoList":[ "React", "CSS", "Bootstrap", "XSL", "API"],
-  "projectPath": "/portfolio/StudioXSL"
+  "projectPath": "/portfolio/StudioXSL",
+  "description": "projet.studioXSL.description"
 }
 )
