@@ -28,6 +28,11 @@ function App() {
 
   return (
     <LangContext.Provider value={lang}>
+
+{ /*
+    TO DO:
+    the nav bar is not responsive
+*/}
       <Container fluid className='p-0'>
         <Navbar>
           <Navbar.Collapse id="basic-navbar-nav">

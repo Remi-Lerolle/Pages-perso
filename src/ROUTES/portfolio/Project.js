@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import i18n from '../../Translation/i18n';
 import { LangContext } from '../../App.js'
 
-
 export function Project({ data }) {
 	const lang = useContext(LangContext);
 	i18n.changeLanguage(lang);
@@ -14,16 +13,25 @@ export function Project({ data }) {
 			<h1>{data.title}</h1>
 		</Container>
 		<Container>
+			{ /*
+  		TO DO:
+  		technoList should come from section list 
+			and each badge should have a link to the section(s) it comes from
+			*/}
 			{technoListToBadges(data.technoList, data.title)}
 		</Container>
 		<Container className='mt-2'>
 			{i18n.t(data.I18nDescriptionId)}
 		</Container>
-		<Container fluid className='text-center mt-2' style={{backgroundColor:"darkgoldenrod"}}>
+		{ /*
+			TO DO:
+			Image is not responsive
+		*/}
+		<Container fluid className='text-center mt-2' style={{ backgroundColor: "darkgoldenrod" }}>
 			<Image src={data.imgUrl} />
 		</Container>
 		{data.listOfSection.map(sect => (
-			<React.Fragment  key={`section-${sect.title}`}>
+			<React.Fragment key={`section-${sect.title}`}>
 				<Container className="mt-5">
 					<h2>{i18n.t(sect.title)}</h2>
 				</Container>
@@ -31,13 +39,17 @@ export function Project({ data }) {
 					<p>{i18n.t(sect.i18nTextId)}</p>
 				</Container>
 				<Container className='text-center'>
-					<Image src={sect.imgUrl} width="50%"/>
+					<Image src={sect.imgUrl} width="50%" />
 				</Container>
 			</React.Fragment  >
 		))}
 	</>)
 }
 
+{ /*
+  TO DO:
+  for responsiveness add margin top to project cards
+*/}
 export function ProjectCard({ data }) {
 	return (
 		<Card style={{ width: '18rem' }}>
