@@ -33,16 +33,29 @@ export class ProjectDataClass{
     this.imgUrl = props.imgUrl
     this.projectPath = props.projectPath;
     this.I18nDescriptionId = props.I18nDescriptionId;
-    this.listOfSection = props.listOfSection
+    this.listOfSection = props.listOfSection || []
   }
 
 }
 
 const authorizedTechnoList = ["PHP", "SQL", "React", "Bootstrap", "CSS", "XSL", "API"]
 
+interface SectionDataProps{
+  title: string;
+  technoList: string[];
+  imgUrl: any;
+  i18nTextId: string;
+}
+
 export class SectionProjectDataClass{
   title: string;
   technoList: string[] = [];
   imgUrl: any;
   i18nTextId: string;
+
+  constructor( props: SectionDataProps ){
+    this.title = props.title
+    this.i18nTextId = props.i18nTextId
+    this.imgUrl = props.imgUrl
+  }
 }
