@@ -3,7 +3,8 @@ interface ProjectDataProps{
   technoList: string[],
   imgUrl: any,
   projectPath: string,
-  description: string
+  I18nDescriptionId: string,
+  listOfSection: SectionProjectDataClass[]
 }
 
 export class ProjectDataClass{
@@ -11,7 +12,8 @@ export class ProjectDataClass{
   technoList: string[] = [];
   imgUrl: any;
   projectPath: string;
-  description: string;
+  I18nDescriptionId: string;
+  listOfSection: SectionProjectDataClass[] = []
 
   constructor( props: ProjectDataProps ){
 
@@ -30,9 +32,17 @@ export class ProjectDataClass{
 
     this.imgUrl = props.imgUrl
     this.projectPath = props.projectPath;
-    this.description = props.description;
+    this.I18nDescriptionId = props.I18nDescriptionId;
+    this.listOfSection = props.listOfSection
   }
 
 }
 
 const authorizedTechnoList = ["PHP", "SQL", "React", "Bootstrap", "CSS", "XSL", "API"]
+
+export class SectionProjectDataClass{
+  title: string;
+  technoList: string[] = [];
+  imgUrl: any;
+  i18nTextId: string;
+}

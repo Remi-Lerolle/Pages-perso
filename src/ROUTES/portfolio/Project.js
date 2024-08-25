@@ -12,15 +12,15 @@ export function Project({ data }) {
 	return (<>
 		<Container>
 			<h1>{data.title}</h1>
-		</Container>   
+		</Container>
 		<Container>
-			{technoListToBadges( data.technoList, data.title )}
+			{technoListToBadges(data.technoList, data.title)}
 		</Container>
 		<Container>
 			<Image src={data.imgUrl} />
 		</Container>
 		<Container>
-			{i18n.t(data.description)}
+			{i18n.t(data.I18nDescriptionId)}
 		</Container>
 	</>)
 }
