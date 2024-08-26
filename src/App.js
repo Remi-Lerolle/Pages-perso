@@ -96,7 +96,9 @@ function App() {
 				<Route path="/portfolio/PortfolioCV" element={<PortfolioCV />} />
 				<Route path="/portfolio/StudioXSL" element={<StudioXSL />} />
 			</Routes>
-
+			{location.pathname === "/CV-V2/index.html"
+				? <Home />
+				: null}
 		</LangContext.Provider >
 	);
 }
