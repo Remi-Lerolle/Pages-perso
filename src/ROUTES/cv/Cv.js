@@ -1,10 +1,11 @@
 import { React, useContext, useEffect, useState } from 'react';
 import XMLdataFr from "../../XMLDATA/cv-rl-fr.xml";
 import XMLdataEn from "../../XMLDATA/cv-rl-en.xml";
-import { Container } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 import CvArticle from './CvArticle';
 import { LangContext } from '../../App.js'
 import i18n from '../../Translation/i18n.js';
+import CVPDF from "../../IMG/cv_Remi_Lerolle_dev-2023.pdf"
 
 export default function Cv() {
 	const lang = useContext(LangContext);
@@ -36,13 +37,16 @@ export default function Cv() {
 			{xmlData
 				? <CvArticle xmlResponse={xmlData} />
 				: null}
+			<a href={CVPDF} target='_blank'>
+				<Button >PDF</Button>
+			</a>
 		</Container>
 	)
 }
 
 /*
 		TO DO:
-		LINK TO DOWNLOAD PDF
+		LINK TO DOWNLOAD PDF depending on lang
 */
 /*
 		TO DO:
