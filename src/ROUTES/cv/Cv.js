@@ -48,10 +48,6 @@ export default function Cv() {
 		TO DO:
 		LINK TO DOWNLOAD PDF depending on lang
 */
-/*
-		TO DO:
-		In mobile screen, "Devel.." card has offset
-*/
 
 function getXML(XMLdata) {
 
