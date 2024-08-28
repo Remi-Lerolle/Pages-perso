@@ -1,97 +1,99 @@
-:root{
-  --red-cv: #d22027;
+:root {
+	--red-cv: #d22027;
 }
 
-body{
-  color: darkslategrey;
-  background-color: #f8f9fa;
+body {
+	color: darkslategrey;
+	background-color: #f8f9fa;
 }
 
-.cvArticle{
-  padding: 2rem;
+.cvArticle {
+	padding: 2rem;
 }
 
-.cvSection{
-  margin-bottom: 2rem;
+.cvSection {
+	margin-bottom: 2rem;
 }
 
-.datePara{
-  font-size: .75rem;
+.datePara {
+	font-size: .75rem;
 }
 
-.hexagone{
-  position:absolute;
-  left: 0.5rem;
-  width: 2.5rem;
+.hexagone {
+	position: absolute;
+	left: 0.5rem;
+	width: 2.5rem;
 }
 
-.section-title__First-letter{
-  font-size: 1.5rem;
-  color:  var(--red-cv);
+.section-title__First-letter {
+	font-size: 1.5rem;
+	color: var(--red-cv);
 }
 
-span.section-title__reminding-letters{
-  background-color: white;
-  position: relative;
-  z-index: 2;
+span.section-title__reminding-letters {
+	background-color: white;
+	position: relative;
+	z-index: 2;
 }
 
 /* History */
-.history-list{
-  position: relative;
+.history-list {
+	position: relative;
 }
 
-.history-stroke{
-  position: absolute;
-  z-index: 1;
-  left: 1.75rem;
-  top: -10px;
-  height:calc(100% + 10px);
-  border-left: 1px solid var(--red-cv);
-  width: 1rem;
+.history-stroke {
+	position: absolute;
+	z-index: 1;
+	left: 1.75rem;
+	top: -10px;
+	height: calc(100% + 10px);
+	border-left: 1px solid var(--red-cv);
+	width: 1rem;
 }
 
-.history-item{
-  position: relative;
-  z-index: 2;
-  margin-bottom: 1rem;
-  padding-left: 0;
+.history-item {
+	position: relative;
+	z-index: 2;
+	margin-bottom: 1rem;
+	padding-left: 0;
 }
 
-.date{
-  font-size: 0.5rem;
-  color: var(--bs-gray);
-  padding-left: 0;
-  background-color: white;
+.date {
+	font-size: 0.5rem;
+	color: var(--bs-gray);
+	padding-left: 0;
+	background-color: white;
 }
 
-.history__establishment{
-  color: var(--bs-gray);
-  font-size: 0.75rem;
-  margin-bottom: 0;
-  background-color: white;
+.history__establishment {
+	color: var(--bs-gray);
+	font-size: 0.75rem;
+	margin-bottom: 0;
+	background-color: white;
 }
 
-.history__entitled, .history__description{
-  margin-bottom: 0;
-  background-color: white;
+.history__entitled,
+.history__description {
+	margin-bottom: 0;
+	background-color: white;
 }
 
-.history__description{
-  font-size: 0.75rem;
-  background-color: white;
+.history__description {
+	font-size: 0.75rem;
+	background-color: white;
 }
 
 /* bootrap override */
-.card{
-  border: none;
+.cvSection,
+.CVcard {
+	border: none !important;
 }
 
-.card-header {
-  background-color: white;
-  border-bottom: none;
+.CVcard-header {
+	background-color: white !important;
+	border-bottom: none !important;
 }
 
-.card-body{
-  padding: 1rem;
+.CVcard-body {
+	padding: 1rem;
 }

@@ -16,8 +16,8 @@ function CvSection(props) {
 
 	return (
 		<Accordion.Item eventKey={id} key={id} className="cvSection">
-			<Card>
-				<Card.Header>
+			<Card className="CVcard">
+				<Card.Header className="CVcard-header">
 					<CustomToggle eventKey={id} >
 						<img src={hexagone} alt="hexagone" className="hexagone" />
 						<span className="section-title__First-letter">{titleFirstLetter}</span>
@@ -42,7 +42,7 @@ function CustomToggle({ children, eventKey }) {
 	return (
 		<button
 			type="button"
-			className="text-start bg-light border-0"
+			className="text-start bg-white border-0"
 			onClick={decoratedOnClick}
 		>
 			{children}

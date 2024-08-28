@@ -19,10 +19,8 @@ function PortfolioHome() {
 					{
 						projectList.map(projectData => {
 							return (
-								<Col key={`projectCard-${projectData.title}`}>
-									<ProjectCard
-										data={projectData} />
-								</Col>
+								<ProjectCard
+									data={projectData} key={`projectCard-${projectData.title}`} />
 							)
 						})
 					}

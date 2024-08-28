@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Badge, Button, Card, Container, Stack, Image } from 'react-bootstrap';
+import { Badge, Button, Card, Col, Container, Stack, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import i18n from '../../Translation/i18n';
 import { LangContext } from '../../App.js'
@@ -27,7 +27,10 @@ export function Project({ data }) {
 			TO DO:
 			Image is not responsive
 		*/}
-		<Container fluid className='text-center mt-2' style={{ backgroundColor: "darkgoldenrod" }}>
+		<Container
+			fluid
+			className='text-center mt-2'
+			style={{ backgroundColor: "darkgoldenrod" }}>
 			<Image src={data.imgUrl} />
 		</Container>
 		{data.listOfSection.map(sect => (
@@ -46,30 +49,27 @@ export function Project({ data }) {
 	</>)
 }
 
-{ /*
-  TO DO:
-  for responsiveness add margin top to project cards
-*/}
 export function ProjectCard({ data }) {
 	return (
-		<Card style={{ width: '18rem' }}>
-			<Card.Header>
-				<Card.Title>{data.title}</Card.Title>
-			</Card.Header>
-			<Card.Img variant="top" src={data.imgUrl} />
-			<Card.Body>
-				{technoListToBadges(data.technoList, data.title)}
-				<Button className="bg-info border-0 mt-2">
-					<Link
-						className='text-white text-decoration-none'
-						to={data.projectPath}
-					>
-						{data.title}
-					</Link>
-				</Button>
-			</Card.Body>
-		</Card>
-
+		<Col className='mt-5'>
+			<Card style={{ width: '18rem' }} className='mt-5px'>
+				<Card.Header>
+					<Card.Title>{data.title}</Card.Title>
+				</Card.Header>
+				<Card.Img variant="top" src={data.imgUrl} />
+				<Card.Body>
+					{technoListToBadges(data.technoList, data.title)}
+					<Button className="bg-info border-0 mt-2">
+						<Link
+							className='text-white text-decoration-none'
+							to={data.projectPath}
+						>
+							{data.title}
+						</Link>
+					</Button>
+				</Card.Body>
+			</Card>
+		</Col>
 	)
 }
 
