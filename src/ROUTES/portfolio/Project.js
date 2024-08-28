@@ -3,6 +3,7 @@ import { Badge, Button, Card, Col, Container, Stack, Image } from 'react-bootstr
 import { Link } from 'react-router-dom';
 import i18n from '../../Translation/i18n';
 import { LangContext } from '../../App.js'
+import "./project.css"
 
 export function Project({ data }) {
 	const lang = useContext(LangContext);
@@ -25,13 +26,13 @@ export function Project({ data }) {
 		</Container>
 		{ /*
 			TO DO:
-			Image is not responsive
+			define a second background for the exerg image
 		*/}
 		<Container
 			fluid
 			className='text-center mt-2'
 			style={{ backgroundColor: "darkgoldenrod" }}>
-			<Image src={data.imgUrl} />
+			<Image src={data.imgUrl} className='project-img__exerg' />
 		</Container>
 		{data.listOfSection.map(sect => (
 			<React.Fragment key={`section-${sect.title}`}>
@@ -49,6 +50,11 @@ export function Project({ data }) {
 	</>)
 }
 
+
+/*
+	TO DO:
+	List of techno overflow the card on mobile
+*/
 export function ProjectCard({ data }) {
 	return (
 		<Col sm>

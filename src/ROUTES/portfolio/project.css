@@ -1,0 +1,9 @@
+@media (min-width:576px) {
+	.project-img__exerg {}
+}
+
+@media (max-width:576px) {
+	.project-img__exerg {
+		width: 100%;
+	}
+}
