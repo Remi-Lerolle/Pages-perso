@@ -51,8 +51,8 @@ export function Project({ data }) {
 
 export function ProjectCard({ data }) {
 	return (
-		<Col className='mt-5'>
-			<Card style={{ width: '18rem' }} className='mt-5px'>
+		<Col sm>
+			<Card className='mt-5'>
 				<Card.Header>
 					<Card.Title>{data.title}</Card.Title>
 				</Card.Header>
@@ -69,7 +69,7 @@ export function ProjectCard({ data }) {
 					</Button>
 				</Card.Body>
 			</Card>
-		</Col>
+		</Col >
 	)
 }
 
