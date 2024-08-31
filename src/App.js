@@ -26,11 +26,6 @@ function App() {
 		setLangState(langValue);
 	}
 
-	/*
-			TO DO:
-			[MOBILE]: menu should close on click
-	*/
-
 	return (
 		<LangContext.Provider value={lang}>
 

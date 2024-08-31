@@ -44,11 +44,6 @@ export default function Cv() {
 	)
 }
 
-/*
-		TO DO:
-		LINK TO DOWNLOAD PDF depending on lang
-*/
-
 function getXML(XMLdata) {
 
 	if (XMLdata) {

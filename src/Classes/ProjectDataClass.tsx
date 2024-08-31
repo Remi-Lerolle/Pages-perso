@@ -11,11 +11,6 @@ interface ProjectDataProps {
 	listOfSection: SectionProjectDataClass[]
 }
 
-{ /*
-  TO DO:
-  technoList should come from section list 
-*/}
-
 export class ProjectDataClass {
 	title: string;
 	technoList: string[] = [];
