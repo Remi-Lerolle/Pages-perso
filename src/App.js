@@ -1,6 +1,5 @@
 import './App.css';
-import React from 'react';
-import { createContext, useState } from 'react';
+import React, { createContext, useState } from 'react';
 import { Link, Route, Routes, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, ButtonGroup, Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
@@ -20,7 +19,9 @@ function App() {
 	const location = useLocation();
 
 	const [lang, setLangState] = useState("fr");
-	i18n.changeLanguage(lang)
+	i18n.changeLanguage(lang);
+
+	const [expanded, setExpanded] = useState(false);
 
 	function handleClickLang(langValue) {
 		setLangState(langValue);
@@ -29,16 +30,23 @@ function App() {
 	return (
 		<LangContext.Provider value={lang}>
 
-			<Navbar expand="lg">
+			<Navbar expand="lg" expanded={expanded}>
 
 				<Container>
-					<Navbar.Toggle />
+					<Navbar.Toggle
+						onClick={() => setExpanded(!expanded)} />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav>
-							<Link to="/home" className="list" >
+							<Link
+								to="/home"
+								onClick={() => setExpanded(!expanded)}
+								className="list" >
 								{i18n.t('Home')}
 							</Link>
-							<Link to="/cv" className="list" >
+							<Link
+								to="/cv"
+								onClick={() => setExpanded(!expanded)}
+								className="list" >
 								{i18n.t('Resume')}
 							</Link>
 
@@ -48,6 +56,7 @@ function App() {
 								style={{ paddingTop: "0.5rem", paddingLeft: "1rem" }}>
 								<NavDropdown.Item
 									as={Link}
+									onClick={() => setExpanded(!expanded)}
 									className='App-link'
 									to="/portfolio-home">
 									Portfolio Home
@@ -55,6 +64,7 @@ function App() {
 								<NavDropdown.Divider />
 								<NavDropdown.Item
 									as={Link}
+									onClick={() => setExpanded(!expanded)}
 									className='App-link'
 									to="/portfolio/PortfolioCV">
 									PortfolioCV
@@ -62,12 +72,14 @@ function App() {
 								<NavDropdown.Item
 									className='App-link'
 									as={Link}
+									onClick={() => setExpanded(!expanded)}
 									to="/portfolio/Formalizz">
 									Formalizz
 								</NavDropdown.Item>
 								<NavDropdown.Item
 									className='App-link'
 									as={Link}
+									onClick={() => setExpanded(!expanded)}
 									to="/portfolio/StudioXSL">
 									Studio XSL
 								</NavDropdown.Item>
@@ -97,7 +109,7 @@ function App() {
 				<Route path="/portfolio/StudioXSL" element={<StudioXSL />} />
 			</Routes>
 			{location.pathname === "/CV-V2/index.html"
-				? <Home />
+				? <Cv />
 				: null}
 		</LangContext.Provider >
 	);
