@@ -13,21 +13,21 @@
   </info>
   <section xml:id="section-profil">
     <title>Profile</title>
-    <simpara>6 years of experience, 6 in business and 2 as a self-employed person.</simpara>
+    <simpara>8 years of experience, 6 in business and 2 as a self-employed person.</simpara>
     <simpara>JavaScript, XSLT and Bash expert.</simpara>
-    <simpara>Analyse besoin / cahier des charges.</simpara>
-    <simpara>Relation client.</simpara>
-    <simpara>Rédaction documentation Utilisateur / développeur</simpara>
-    <simpara>Diagrammes fonctionnels</simpara>
+    <simpara>Requirements Analysis / Statement of Work</simpara>
+    <simpara>Customer Relationship</simpara>
+    <simpara>User / developer Documentation Writing</simpara>
+    <simpara>Functional Diagrams</simpara>
   </section>
   <section xml:id="section-formation">
-    <title>Formation</title>
+    <title>Training</title>
     <itemizedlist role="history" >
       <listitem>
         <simpara role="date"><date role="start">2019</date><date role="end">2022</date></simpara>
-        <simpara role="entitled">Certificat administrateur machines en réseau</simpara>
+        <simpara role="entitled">Network Systems Administrator Certificate</simpara>
         <simpara role="establishment">CNAM PACA</simpara>
-        <simpara>En cours d'obtention</simpara>
+        <simpara>Currently Pursuing</simpara>
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2016</date><date role="end">2017</date></simpara>
@@ -38,11 +38,11 @@
       <listitem>
         <simpara role="date"><date role="start">2012</date><date role="end">2013</date></simpara>
         <simpara role="entitled">Perspective</simpara>
-        <simpara role="establishment">Cours du soir</simpara>
+        <simpara role="establishment">Evening Classes</simpara>
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2009</date></simpara>
-        <simpara role="entitled">P.O.O. aS3</simpara>
+        <simpara role="entitled">Object-Oriented Programming aS3</simpara>
         <simpara role="establishment">Pyramid</simpara>
       </listitem>
       <listitem>
@@ -52,22 +52,22 @@
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2003</date></simpara>
-        <simpara role="entitled">Chromie</simpara>
+        <simpara role="entitled">Colorimetric Calibration of Images</simpara>
         <simpara role="establishment">MediaGraf</simpara>
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">1999</date></simpara>
-        <simpara role="entitled">Licence d’Arts Plastiques</simpara>
-        <simpara role="establishment">Paris I</simpara>
+        <simpara role="entitled">Bachelor's Degree in Plastic Arts</simpara>
+        <simpara role="establishment">Paris I Sorbonne</simpara>
       </listitem>
     </itemizedlist>
   </section>
   <section xml:id="section-dev-client-lourd">
-    <title>Développement web back end</title>
+    <title>Back End Development</title>
     <simpara/>
   </section>
   <section xml:id="section-experience">
-    <title>Expérience</title>
+    <title>Experience</title>
     <itemizedlist role="history" >
       <title/>
       <listitem>
@@ -138,7 +138,7 @@
         <simpara>Docbook</simpara>
       </listitem>
       <listitem>
-        <simpara>Conception XSLT</simpara>
+        <simpara>XSLT Conception</simpara>
       </listitem>
       <listitem>
         <simpara>XSL-FO</simpara>
@@ -147,7 +147,7 @@
         <simpara>DTD, Schema</simpara>
       </listitem>
       <listitem>
-        <simpara>Migration : </simpara>
+        <simpara>Migration: </simpara>
         <itemizedlist>
           <listitem>
             <simpara>Framemaker to docbook</simpara>
@@ -160,7 +160,7 @@
     </itemizedlist>
   </section>
   <section xml:id="front-end-dev">
-    <title>Développement web front end</title>
+    <title>Front End</title>
     <itemizedlist>
       <listitem>
         <simpara>Javascript</simpara>
@@ -180,7 +180,7 @@
     </itemizedlist>
   </section>
   <section xml:id="android-dev">
-    <title>Développement Android</title>
+    <title>Android</title>
     <itemizedlist>
       <listitem>
         <simpara>Jetpack Compose</simpara>
@@ -194,10 +194,10 @@
     </itemizedlist>
   </section>
   <section xml:id="section-graphisme">
-    <title>Graphisme</title>
+    <title>Graphic Design</title>
     <itemizedlist>
       <listitem>
-        <simpara>Photoshop (chromie) / Flash(actionScript)</simpara>
+        <simpara>Photoshop (Colorimetric Calibration of Images) / Flash(actionScript)</simpara>
       </listitem>
       <listitem>
         <simpara>Illustrator / Indesing + EasyCatalog</simpara>

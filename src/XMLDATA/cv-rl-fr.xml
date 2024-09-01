@@ -13,7 +13,7 @@
   </info>
   <section xml:id="section-profil">
     <title>Profil</title>
-    <simpara>Expérience de 6 années de 6 en entreprise et de 2 en tant qu’autoentrepreneur.</simpara>
+    <simpara>Expérience de 8 années de 6 en entreprise et de 2 en tant qu’autoentrepreneur.</simpara>
     <simpara>Maîtrise du JavaScript, XSLT et Bash.</simpara>
     <simpara>Analyse besoin / cahier des charges.</simpara>
     <simpara>Relation client.</simpara>
@@ -42,7 +42,7 @@
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2009</date></simpara>
-        <simpara role="entitled">P.O.O. aS3</simpara>
+        <simpara role="entitled">Programmation Orientée Objet aS3</simpara>
         <simpara role="establishment">Pyramid</simpara>
       </listitem>
       <listitem>
@@ -63,7 +63,7 @@
     </itemizedlist>
   </section>
   <section xml:id="section-dev-client-lourd">
-    <title>Développement web back end</title>
+    <title>Développement côté serveur</title>
     <simpara/>
   </section>
   <section xml:id="section-experience">
@@ -160,7 +160,7 @@
     </itemizedlist>
   </section>
   <section xml:id="front-end-dev">
-    <title>Développement web front end</title>
+    <title>Développement côté client</title>
     <itemizedlist>
       <listitem>
         <simpara>Javascript</simpara>
