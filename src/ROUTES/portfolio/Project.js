@@ -14,11 +14,6 @@ export function Project({ data }) {
 			<h1>{data.title}</h1>
 		</Container>
 		<Container>
-			{ /*
-  		TO DO:
-  		technoList should come from section list 
-			and each badge should have a link to the section(s) it comes from
-			*/}
 			{technoListToBadges(data.technoList, data.title)}
 		</Container>
 		<Container className='mt-2'>
@@ -50,11 +45,6 @@ export function Project({ data }) {
 	</>)
 }
 
-
-/*
-	TO DO:
-	List of techno overflow the card on mobile
-*/
 export function ProjectCard({ data }) {
 	return (
 		<Col sm>
@@ -80,14 +70,17 @@ export function ProjectCard({ data }) {
 }
 
 function technoListToBadges(technoList, title) {
-	return (<Stack direction="horizontal" gap={2}>
+	return (<p >
 		{technoList.map(
 			t => {
 				return (
-					<React.Fragment key={`${t}-${title}-techno-bagde`}>
-						<Badge bg="info" className="mr-2">{t}</Badge>
-					</React.Fragment>
+					<Badge
+						bg="info"
+						className="techno-badge"
+						key={`${t}-${title}-techno-bagde`}>
+						{t}
+					</Badge>
 				)
 			})}
-	</Stack>)
+	</p>)
 }
