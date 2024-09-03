@@ -34,18 +34,18 @@ function App() {
 
 				<Container>
 					<Navbar.Toggle
-						onClick={() => setExpanded(!expanded)} />
+						onClick={() => setExpanded((currExpandedValue) => !currExpandedValue)} />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav>
 							<Link
 								to="/home"
-								onClick={() => setExpanded(!expanded)}
+								onClick={() => setExpanded((currExpandedValue) => !currExpandedValue)}
 								className="list" >
 								{i18n.t('Home')}
 							</Link>
 							<Link
 								to="/cv"
-								onClick={() => setExpanded(!expanded)}
+								onClick={() => setExpanded((currExpandedValue) => !currExpandedValue)}
 								className="list" >
 								{i18n.t('Resume')}
 							</Link>
@@ -56,7 +56,7 @@ function App() {
 								style={{ paddingTop: "0.5rem", paddingLeft: "1rem" }}>
 								<NavDropdown.Item
 									as={Link}
-									onClick={() => setExpanded(!expanded)}
+									onClick={() => setExpanded((currExpandedValue) => !currExpandedValue)}
 									className='App-link'
 									to="/portfolio-home">
 									Portfolio Home
@@ -64,7 +64,7 @@ function App() {
 								<NavDropdown.Divider />
 								<NavDropdown.Item
 									as={Link}
-									onClick={() => setExpanded(!expanded)}
+									onClick={() => setExpanded((currExpandedValue) => !currExpandedValue)}
 									className='App-link'
 									to="/portfolio/PortfolioCV">
 									PortfolioCV
@@ -72,14 +72,14 @@ function App() {
 								<NavDropdown.Item
 									className='App-link'
 									as={Link}
-									onClick={() => setExpanded(!expanded)}
+									onClick={() => setExpanded((currExpandedValue) => !currExpandedValue)}
 									to="/portfolio/Formalizz">
 									Formalizz
 								</NavDropdown.Item>
 								<NavDropdown.Item
 									className='App-link'
 									as={Link}
-									onClick={() => setExpanded(!expanded)}
+									onClick={() => setExpanded((currExpandedValue) => !currExpandedValue)}
 									to="/portfolio/StudioXSL">
 									Studio XSL
 								</NavDropdown.Item>
