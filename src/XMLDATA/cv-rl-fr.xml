@@ -64,7 +64,21 @@
   </section>
   <section xml:id="section-dev-client-lourd">
     <title>Développement côté serveur</title>
-    <simpara/>
+    <simpara>Installation et configuration :</simpara>
+		<itemizedlist>
+			<listitem>
+				<simpara>Apache HTTPD</simpara>
+			</listitem> 	
+			<listitem>
+				<simpara>SQL</simpara>
+			</listitem> 	
+			<listitem>
+				<simpara>PHP</simpara>
+			</listitem>
+			<listitem>
+				<simpara>Serveur Minecraft</simpara>
+			</listitem> 	
+		</itemizedlist>
   </section>
   <section xml:id="section-experience">
     <title>Expérience</title>
