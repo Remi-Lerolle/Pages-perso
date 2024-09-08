@@ -14,7 +14,6 @@ export function Formalizz(data) {
 export const FormalizzData = new ProjectDataClass(
 	{
 		"title": "Formalizz",
-		"technoList": ["PHP", "SQL"],
 		"imgUrl": LogoRPDrancy,
 		"projectPath": "/portfolio/Formalizz",
 		"I18nDescriptionId": "project.formalizz.description",
@@ -23,7 +22,8 @@ export const FormalizzData = new ProjectDataClass(
 				{
 					title: "Formalizz.FrontEnd.title",
 					i18nTextId: "Formalizz.FrontEnd.text",
-					imgUrl: FormalizzFrontImg
+					imgUrl: FormalizzFrontImg,
+					technoList: ["Bootstrap", "CSS"]
 				}
 			)
 		]

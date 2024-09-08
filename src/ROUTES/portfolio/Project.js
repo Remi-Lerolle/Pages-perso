@@ -14,7 +14,7 @@ export function Project({ data }) {
 			<h1>{data.title}</h1>
 		</Container>
 		<Container>
-			{technoListToBadges(data.technoList, data.title)}
+			{technoListToBadges(composeTechnoList(data.listOfSection), data.title)}
 		</Container>
 		<Container className='mt-2'>
 			{i18n.t(data.I18nDescriptionId)}
@@ -54,7 +54,7 @@ export function ProjectCard({ data }) {
 				</Card.Header>
 				<Card.Img variant="top" src={data.imgUrl} />
 				<Card.Body>
-					{technoListToBadges(data.technoList, data.title)}
+					{technoListToBadges(composeTechnoList(data.listOfSection), data.title)}
 					<Button className="bg-info border-0 mt-2">
 						<Link
 							className='text-white text-decoration-none'
@@ -67,6 +67,18 @@ export function ProjectCard({ data }) {
 			</Card>
 		</Col >
 	)
+}
+
+function composeTechnoList(listOfSection) {
+	let listOfDistinctTechno = []
+	listOfSection.forEach(section => {
+		section.technoList.forEach(techno => {
+			if (listOfDistinctTechno.indexOf(techno) === -1) {
+				listOfDistinctTechno.push(techno)
+			}
+		})
+	});
+	return listOfDistinctTechno;
 }
 
 function technoListToBadges(technoList, title) {
