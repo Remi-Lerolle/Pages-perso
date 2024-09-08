@@ -33,7 +33,7 @@
         <simpara role="date"><date role="start">2016</date><date role="end">2017</date></simpara>
         <simpara role="entitled">BTS SIO SLAM</simpara>
         <simpara role="establishment">GRETA Montpellier</simpara>
-        <simpara><uri annotations="portfolio :">http://rlerolle.free.fr/sio/portfolio/</uri></simpara>
+        <simpara role="link"><uri annotations="portfolio : ">http://rlerolle.free.fr/sio/portfolio/</uri></simpara>
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2012</date><date role="end">2013</date></simpara>

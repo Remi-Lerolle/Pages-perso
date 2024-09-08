@@ -97,3 +97,11 @@ span.section-title__reminding-letters {
 .CVcard-body {
 	padding: 1rem;
 }
+
+.paraLink {
+	font-size: 0.75rem;
+}
+
+.paraLink a {
+	text-decoration: none;
+}
