@@ -84,17 +84,17 @@ function App() {
 									Studio XSL
 								</NavDropdown.Item>
 							</NavDropdown>
+							<ButtonGroup className='mb-2 me-5 me-2'>
+								<Button
+									variant={lang === "fr" ? "primary" : "secondary"}
+									onClick={() => handleClickLang("fr")}>fr</Button>
+								<Button
+									variant={lang === "en" ? "primary" : "secondary"}
+									onClick={() => handleClickLang("en")} >en</Button>
+							</ButtonGroup>
 						</Nav>
 					</Navbar.Collapse>
 
-					<ButtonGroup className='mb-2 me-5 me-2'>
-						<Button
-							variant={lang === "fr" ? "primary" : "secondary"}
-							onClick={() => handleClickLang("fr")}>fr</Button>
-						<Button
-							variant={lang === "en" ? "primary" : "secondary"}
-							onClick={() => handleClickLang("en")} >en</Button>
-					</ButtonGroup>
 
 				</Container>
 			</Navbar>
