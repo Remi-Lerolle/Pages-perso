@@ -1,3 +1,7 @@
+:root {
+	--red-cv: #d22027;
+}
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,8 +17,11 @@ code {
 }
 
 nav {
-	background-color: darkgoldenrod;
-	color: white;
+	background-color: white;
+	color: grey;
+	border-image: linear-gradient(to right, var(--red-cv) 75%, purple 80%, var(--red-cv) 85%) 1;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
 }
 
 nav ul {

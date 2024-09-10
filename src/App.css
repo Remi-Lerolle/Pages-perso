@@ -1,49 +1,48 @@
-:root{
-  --nav-text-color: #5e3501;
-  --nav-bg-color: #b8860b;
+:root {
+	--nav-text-color: #5e3501;
+	--nav-bg-color: #b8860b;
 }
 
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: var(--nav-text-color);
-  text-decoration: none;
+	color: var(--nav-text-color);
+	text-decoration: none;
 }
 
 .App-link:visited {
-  color: var(--nav-text-color);
+	color: var(--nav-text-color);
 }
 
-.list{
-  color:var(--nav-text-color);
+.list {
+	color: var(--nav-text-color);
 }
 
-.list:hover{
-  color:var(--nav-text-color);
+.list:hover {
+	color: var(--nav-text-color);
 }
 
 .navBar-dropdown,
 .dropdown-menu,
-.dropdown-item{
-  color: var(--nav-text-color)!important;
-  background-color: var(--nav-bg-color)!important;
-  border: none !important;
+.dropdown-item {
+	color: var(--nav-text-color) !important;
+	border: none !important;
 }
