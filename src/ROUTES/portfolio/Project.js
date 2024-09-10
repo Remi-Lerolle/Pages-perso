@@ -19,14 +19,9 @@ export function Project({ data }) {
 		<Container className='mt-2'>
 			{i18n.t(data.I18nDescriptionId)}
 		</Container>
-		{ /*
-			TO DO:
-			define a second background for the exerg image
-		*/}
 		<Container
 			fluid
-			className='text-center mt-2'
-			style={{ backgroundColor: "darkgoldenrod" }}>
+			className='porfolio-section-img' >
 			<Image src={data.imgUrl} className='project-img__exerg' />
 		</Container>
 		{data.listOfSection.map(sect => (
