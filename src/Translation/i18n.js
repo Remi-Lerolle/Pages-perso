@@ -14,10 +14,11 @@ const resources = {
 			"CV.RL": "Remi Lerolle's resume",
 			"project.formalizz.description": "RP Drancy is a windshield replacement company. Which offers the possibility of lend on condition of assignment of the debt from the insurance company.<br />Project therefore consists of persistently retaining customers, their vehicles, and their insurance information.",
 			"projet.portfolio.description": "The personal pages, the website you are currently visiting, reflect my professional experience.",
-			"projet.studioXSL.description": "The XSL generation studio is an application that allows Calenco users to generate XSL style sheets without any coding knowledge.",
 			"Formalizz.FrontEnd.title": "Front End",
-			"Formalizz.FrontEnd.text":  "The graphical interface of the Formalizz website has been created in collaboration with a graphic designer. The designer created the logo, colors, etc. The icons come from the FontAwesome site. The CSS uses the Bootstrap library, with form utilities, cards, etc. Thanks to Bootstrap, the interface is responsive."
-
+			"Formalizz.FrontEnd.text": "Front End.",
+			"projet.studioXSL.description": "The XSL generation studio is an application that allows Calenco users to generate XSL style sheets without any coding knowledge.",
+			"projet.StudioXSL.FrontEnd.title": "Front End",
+			"projet.StudioXSL.FrontEnd.text": "The user interface is entirely built with React to facilitate component reuse. Given the particularly large state, the Redux library is used. It allows access to states via a manager or store that is accessible throughout the application. For drag-and-drop functionalities, the React-DnD library is utilized.",
 		}
 	},
 	fr: {
@@ -27,11 +28,13 @@ const resources = {
 			"Resume": "Curriculum Vitæ",
 			"RL.personnal.web.pages": "Page perso de Rémi Lerolle",
 			"CV.RL": "Curriculum Vitæ de Rémi Lerolle",
-			"project.formalizz.description": "RP Drancy est une entreprise de remplacement de pare-brise. Qui offre la possibilité d'avance des coups, sous condition de cession de la créance au-près des assurance.Le projet consiste donc à conserver de manière persistante les clients, leurs véhicules, et leurs informations d'assurance.",
 			"projet.portfolio.description": "Les pages perso, le site que vous visitez actuellement, reflète mon expérience professionnelle.",
-			"projet.studioXSL.description": "Le studio de génération de XSL est une application qui permet aux utilisateurs de Calenco de générer des feuilles de style XSL sans avoir aucune connaissance en code.",
+			"project.formalizz.description": "RP Drancy est une entreprise de remplacement de pare-brise. Qui offre la possibilité d'avance des coups, sous condition de cession de la créance au-près des assurance.Le projet consiste donc à conserver de manière persistante les clients, leurs véhicules, et leurs informations d'assurance.",
 			"Formalizz.FrontEnd.title": "Front End",
-			"Formalizz.FrontEnd.text":  "L'interface graphique du site Formalizz a été réalisée en collaboration avec un graphiste. Celui-ci a créé le logo, les couleurs… Les icones proviennent du site fontawsome. Le CSS utilise la bibliothèque bootstrap. avec les utilitaires de formulaire, carte… Grâce à Bootstrap, l'interface est responsive."
+			"Formalizz.FrontEnd.text": "L'interface graphique du site Formalizz a été réalisée en collaboration avec un graphiste. Celui-ci a créé le logo, les couleurs… Les icones proviennent du site fontawsome. Le CSS utilise la bibliothèque bootstrap. avec les utilitaires de formulaire, carte… Grâce à Bootstrap, l'interface est responsive.",
+			"projet.studioXSL.description": "Le studio de génération de XSL est une application qui permet aux utilisateurs de Calenco de générer des feuilles de style XSL sans avoir aucune connaissance en code.",
+			"projet.StudioXSL.FrontEnd.title": "Côté client",
+			"projet.StudioXSL.FrontEnd.text": "L'interface utilisateur est entièrement écrite en React, pour la réutilisation de composants. Le state étant particulière imposant, la bibliothèque Redux est employée. Elle permet d'accéder aux states via un manager ou store accessible n'importe où dans l'application. Pour les fonctionnalités de glisser déploser, la bibliothèque React-DnD est utilisée.",
 		}
 	}
 };

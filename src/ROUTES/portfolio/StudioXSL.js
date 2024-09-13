@@ -19,8 +19,8 @@ export const StudioXSLDataClass = new ProjectDataClass(
 		"listOfSection": [
 			new SectionProjectDataClass(
 				{
-					title: "StudioXSL.FrontEnd.title",
-					i18nTextId: "StudioXSL.FrontEnd.text",
+					title: "projet.StudioXSL.FrontEnd.title",
+					i18nTextId: "projet.StudioXSL.FrontEnd.text",
 					imgUrl: null,
 					technoList: ["Bootstrap", "CSS"]
 				}
