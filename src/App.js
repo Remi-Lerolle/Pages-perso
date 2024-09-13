@@ -63,13 +63,6 @@ function App() {
 								</NavDropdown.Item>
 								<NavDropdown.Divider />
 								<NavDropdown.Item
-									as={Link}
-									onClick={() => setExpanded((currExpandedValue) => !currExpandedValue)}
-									className='App-link'
-									to="/portfolio/PortfolioCV">
-									PortfolioCV
-								</NavDropdown.Item>
-								<NavDropdown.Item
 									className='App-link'
 									as={Link}
 									onClick={() => setExpanded((currExpandedValue) => !currExpandedValue)}
@@ -82,6 +75,13 @@ function App() {
 									onClick={() => setExpanded((currExpandedValue) => !currExpandedValue)}
 									to="/portfolio/StudioXSL">
 									Studio XSL
+								</NavDropdown.Item>
+								<NavDropdown.Item
+									as={Link}
+									onClick={() => setExpanded((currExpandedValue) => !currExpandedValue)}
+									className='App-link'
+									to="/portfolio/PortfolioCV">
+									PortfolioCV
 								</NavDropdown.Item>
 							</NavDropdown>
 							<ButtonGroup className='mb-2 me-5 me-2'>
