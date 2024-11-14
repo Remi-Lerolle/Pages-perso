@@ -19,6 +19,8 @@ const resources = {
 			"projet.studioXSL.description": "The XSL generation studio is an application that allows Calenco users to generate XSL style sheets without any coding knowledge.",
 			"projet.StudioXSL.FrontEnd.title": "Front End",
 			"projet.StudioXSL.FrontEnd.text": "The user interface is entirely built with React to facilitate component reuse. Given the particularly large state, the Redux library is used. It allows access to states via a manager or store that is accessible throughout the application. For drag-and-drop functionalities, the React-DnD library is utilized.",
+			"Formalizz.SQL.title": "Data base",
+			"Formalizz.SQL.text": "The Formalizz website keeps persisting data thanks to  an SQL database. Its structure allows several companies to use its services by subscription. It provide recording for each company to record its customers, several customers can have one or several vehicule. Each vehicule is linked to an insurance contract. Each vehicule can also have one or several car accident. Each car accident can be linked to couriers sent to the insurance."
 		}
 	},
 	fr: {
@@ -35,6 +37,8 @@ const resources = {
 			"projet.studioXSL.description": "Le studio de génération de XSL est une application qui permet aux utilisateurs de Calenco de générer des feuilles de style XSL sans avoir aucune connaissance en code.",
 			"projet.StudioXSL.FrontEnd.title": "Côté client",
 			"projet.StudioXSL.FrontEnd.text": "L'interface utilisateur est entièrement écrite en React, pour la réutilisation de composants. Le state étant particulière imposant, la bibliothèque Redux est employée. Elle permet d'accéder aux states via un manager ou store accessible n'importe où dans l'application. Pour les fonctionnalités de glisser déploser, la bibliothèque React-DnD est utilisée.",
+			"Formalizz.SQL.title": "Base de données",
+			"Formalizz.SQL.text": "Le site Formalizz garde ses données de manière persistante grâce à une base de données SQL. Sa structure permet à plusieurs entreprises d'utiliser ses services moyennant un abonnement.\n Elle permet d'enregister les clients de chaque entreprise. Chaque client peut avoir un ou plusieurs véhicule. Chaque véhicule est lié à un contrat d'assurance et à un ou plusieurs sinistres. Chaque accident peut-être lié à des couriers envoyé à l'assurance.",
 		}
 	}
 };
