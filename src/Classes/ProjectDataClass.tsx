@@ -26,13 +26,12 @@ export class ProjectDataClass {
 	}
 }
 
-const authorizedTechnoList = ["PHP", "SQL", "React", "Bootstrap", "CSS", "XSL", "API"]
-
 interface SectionDataProps {
 	title: string;
 	technoList: string[];
 	imgUrl: any;
 	i18nTextId: string;
+	componentList: object[];
 }
 
 export class SectionProjectDataClass {
@@ -40,20 +39,19 @@ export class SectionProjectDataClass {
 	technoList: string[] = [];
 	imgUrl: any;
 	i18nTextId: string;
+	componentList: object[];
 
 	constructor(props: SectionDataProps) {
 		this.title = props.title;
 		this.i18nTextId = props.i18nTextId;
 		this.imgUrl = props.imgUrl;
 		props.technoList.forEach(techno => {
-			if (this.technoList.indexOf(techno) !== -1) {
-				return;
-			}
-			if (authorizedTechnoList.indexOf(techno) === -1) {
+			if (typeof techno !== "string") {
 				console.log("techno not listed as authorized: " + techno);
 				return;
 			}
 			this.technoList.push(techno);
 		})
+		this.componentList = props.componentList || [];
 	}
 }

@@ -12,7 +12,6 @@ export default function StudioXSL() {
 export const StudioXSLDataClass = new ProjectDataClass(
 	{
 		"title": "Studio XSL",
-		"technoList": ["React", "CSS", "Bootstrap", "XSL", "API"],
 		"projectPath": "/portfolio/StudioXSL",
 		"I18nDescriptionId": "projet.studioXSL.description",
 		"imgUrl": xmlIcon,
@@ -24,7 +23,20 @@ export const StudioXSLDataClass = new ProjectDataClass(
 					imgUrl: null,
 					technoList: ["Bootstrap", "CSS"]
 				}
+			),
+			new SectionProjectDataClass(
+				{
+					title: "projet.StudioXSL.dnd.title",
+					i18nTextId: "projet.StudioXSL.dnd.text",
+					imgUrl: null,
+					technoList: ["React", "Redux", "Redux-ToolKik", "React-Dnd"],
+					componentList: [Dummy()]
+				}
 			)
 		]
 	}
 )
+
+function Dummy() {
+	return <div>dummy</div>
+}
