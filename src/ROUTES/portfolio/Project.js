@@ -35,7 +35,9 @@ export function Project({ data }) {
 				<Container className='text-center'>
 					<Image src={sect.imgUrl} width="50%" />
 				</Container>
-				{sect?.componentList.map(component => (component))}
+				<Container className='clearfix'>
+					{sect?.componentList.map((component, index) => (<React.Fragment key={`comp-${index}`}>{component}</React.Fragment>))}
+				</Container>
 			</React.Fragment  >
 		))}
 	</>)
