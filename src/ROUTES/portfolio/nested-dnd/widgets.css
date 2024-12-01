@@ -1,0 +1,110 @@
+#pageLayoutDiv {
+	width: 500px;
+	height: 500px;
+	margin-left: 20px;
+	padding: 10px;
+	position: relative;
+	float: left;
+}
+
+table {
+	float: left;
+	margin-left: 1rem;
+	border-collapse: collapse;
+	font-size: 0.75rem;
+}
+
+th,
+td {
+	padding: 0.5rem;
+}
+
+th {
+	border: none;
+	background-color: grey;
+	color: white;
+}
+
+td {
+	border-top: 1px solid black;
+}
+
+table p {
+	margin: 0;
+}
+
+.widgetToDrag {
+	padding: 0.5rem;
+	margin: 0.5rem;
+	position: absolute;
+}
+
+.simpleWidget {
+	border: none;
+	background-color: lightgrey;
+}
+
+.widgetToDrag:hover {
+	cursor: pointer;
+}
+
+.inGrid {
+	margin: 0.5rem 0;
+	position: relative;
+}
+
+.inSideBar {
+	position: relative;
+}
+
+.isGrid {
+	border: 1px solid lightblue;
+}
+
+.isDragging {
+	opacity: 0.5;
+}
+
+.notDragging {
+	opacity: 1;
+}
+
+.removeWidgetButton {
+	border: none;
+	position: absolute;
+	top: 0;
+	background-color: lightsteelblue;
+	color: white;
+	right: 0px;
+	padding: 0.5rem;
+	height: 2.25rem;
+	cursor: pointer;
+}
+
+.removeWidgetButton:hover {
+	background-color: red;
+}
+
+.spacer {
+	margin-right: 2rem;
+}
+
+.sideBar {
+	background-color: lightyellow;
+	padding: 5px;
+	width: fit-content;
+	position: relative;
+	float: left
+}
+
+.isGrid p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.inGrid p,
+.simpleWidget p,
+.inSideBar p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
