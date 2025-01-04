@@ -1,17 +1,51 @@
 #pageLayoutDiv {
-	width: 500px;
 	height: 500px;
-	margin-left: 20px;
 	padding: 10px;
-	position: relative;
-	float: left;
+}
+
+.sideBar {
+	background-color: lightyellow;
+	padding: 5px;
+	width: fit-content;
 }
 
 table {
-	float: left;
-	margin-left: 1rem;
 	border-collapse: collapse;
 	font-size: 0.75rem;
+}
+
+@media screen and (max-width: 700px) {
+	#pageLayoutDiv {
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+	.sideBar {}
+
+	table {
+		margin-top: 1rem;
+		width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 701px) {
+	#pageLayoutDiv {
+		width: 500px;
+		margin-left: 20px;
+		position: relative;
+		float: left;
+	}
+
+	.sideBar {
+		position: relative;
+		float: left
+	}
+
+	table {
+		float: left;
+		margin-left: 1rem;
+	}
 }
 
 th,
@@ -89,14 +123,6 @@ table p {
 
 .spacer {
 	margin-right: 2rem;
-}
-
-.sideBar {
-	background-color: lightyellow;
-	padding: 5px;
-	width: fit-content;
-	position: relative;
-	float: left
 }
 
 .isGrid p {
