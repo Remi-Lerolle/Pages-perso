@@ -6,7 +6,7 @@ import { WidgetToDrag } from "./Widget";
 
 export const DraggedPreview = () => {
 	const preview = usePreview({
-		placement: "top", padding: { x: -20, y: 0 }
+		placement: "top", padding: { x: -20, y: -20 }
 	})
 
 	const listOfWidgets = useSelector((state) => state.listOfWidgets.value);
