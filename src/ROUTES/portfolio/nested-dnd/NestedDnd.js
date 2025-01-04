@@ -7,17 +7,19 @@ import { PageLayout } from './PageLayout';
 import store from "./store"
 import { Provider } from "react-redux"
 import { DisplayStateAsTable } from "./DisplayStateAsTable"
+import { DraggedPreview } from "./DraggedPreview";
+
 
 export function NestedDnd() {
+	const isMobileOs = window.navigator.userAgent.includes("Android")
+		|| window.navigator.userAgent.includes("iPhone")
+		|| window.navigator.userAgent.includes("iPad")
 	return <Provider store={store}>
 		<DndProvider
-			backend={window.navigator.userAgent.includes("Android")
-				|| window.navigator.userAgent.includes("iPhone")
-				|| window.navigator.userAgent.includes("iPad")
-				? TouchBackend
-				: HTML5Backend}>
+			backend={isMobileOs ? TouchBackend : HTML5Backend}>
 			<SideBar />
 			<PageLayout />
+			{isMobileOs ? <DraggedPreview /> : null}
 			<DisplayStateAsTable />
 		</DndProvider>
 	</Provider>
