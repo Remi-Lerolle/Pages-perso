@@ -13,7 +13,7 @@ export const DraggedPreview = () => {
 	const { itemType, item, style, ref } = preview;
 	let computedClassName = "widgetToDrag"
 
-	if (preview.itemType === "GROUPWIDGET") {
+	if (preview.itemType === "GROUPWIDGET" || preview.itemType === "GROUPDROPPED") {
 		computedClassName += " isGrid"
 	} else {
 		computedClassName += " simpleWidget"
@@ -23,6 +23,6 @@ export const DraggedPreview = () => {
 		className={computedClassName}
 		ref={ref}
 		style={{ ...style, zIndex: 3 }}>
-		{`${ItemTypes} ${preview.item.pos}`}
+		{`${ItemTypes[preview.itemType]} ${preview.item.pos || ""}`}
 	</div>
 }
