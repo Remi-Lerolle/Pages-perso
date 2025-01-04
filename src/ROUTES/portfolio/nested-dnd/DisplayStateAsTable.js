@@ -34,8 +34,8 @@ export function DisplayStateAsTable() {
 								}
 								else if (droppedKey === "clientOffset") {
 									return <td key={`${droppedIndex}-clientOffset`} >
-										<p>x: {dropped.clientOffset.x}</p>
-										<p>y: {dropped.clientOffset.y}</p>
+										<p>x: {dropped.clientOffset.x.toFixed(2)}</p>
+										<p>y: {dropped.clientOffset.y.toFixed(2)}</p>
 									</td>
 								} else if (droppedKey === "children") {
 									return <td key={`${droppedIndex}-children`}  >

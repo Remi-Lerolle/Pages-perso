@@ -1,12 +1,13 @@
-#pageLayoutDiv {
-	height: 500px;
-	padding: 10px;
-}
-
 .sideBar {
 	background-color: lightyellow;
 	padding: 5px;
 	width: fit-content;
+}
+
+#pageLayoutDiv {
+	height: 500px;
+	padding: 10px;
+	position: relative;
 }
 
 table {
@@ -33,7 +34,6 @@ table {
 	#pageLayoutDiv {
 		width: 500px;
 		margin-left: 20px;
-		position: relative;
 		float: left;
 	}
 
