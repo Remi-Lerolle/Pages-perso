@@ -3,7 +3,7 @@ import { usePreview } from "react-dnd-preview";
 
 export const DraggedPreview = () => {
 	const preview = usePreview({
-		placement: "top", padding: { x: -20, y: 0 }
+		placement: "top",
 	})
 
 	if (!preview.display) { return null }
@@ -11,7 +11,7 @@ export const DraggedPreview = () => {
 
 	const { itemType, item, style, ref } = preview;
 
-	return <div style={{ position: "absolute" }}>
-		yo preview
+	return <div ref={ref} style={{ ...style, zIndex: 3 }}>
+		{preview.itemType}
 	</div>
 }
