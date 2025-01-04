@@ -9,7 +9,6 @@ import { Provider } from "react-redux"
 import { DisplayStateAsTable } from "./DisplayStateAsTable"
 import { DraggedPreview } from "./DraggedPreview";
 
-
 export function NestedDnd() {
 	const isMobileOs = window.navigator.userAgent.includes("Android")
 		|| window.navigator.userAgent.includes("iPhone")
