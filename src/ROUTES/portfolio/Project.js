@@ -26,12 +26,17 @@ export function Project({ data }) {
 		</Container>
 		{data.listOfSection.map(sect => (
 			<React.Fragment key={`section-${sect.title}`}>
-				<Container className="mt-5">
-					<h2>{i18n.t(sect.title)}</h2>
-				</Container>
-				<Container>
-					<p>{i18n.t(sect.i18nTextId)}</p>
-				</Container>
+				{sect.title
+					? <Container className="mt-5">
+						<h2>{i18n.t(sect.title)}</h2>
+					</Container>
+					: null}
+				{sect.i18nTextId
+					? <Container>
+						<p>{i18n.t(sect.i18nTextId)}</p>
+					</Container>
+					: null
+				}
 				<Container className='text-center'>
 					<Image src={sect.imgUrl} width="50%" />
 				</Container>

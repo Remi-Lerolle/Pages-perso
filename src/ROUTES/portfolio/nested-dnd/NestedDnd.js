@@ -8,6 +8,8 @@ import store from "./store"
 import { Provider } from "react-redux"
 import { DisplayStateAsTable } from "./DisplayStateAsTable"
 import { DraggedPreview } from "./DraggedPreview";
+import { SectionDnd } from './SectionDnd';
+
 
 export function NestedDnd() {
 	const isMobileOs = window.navigator.userAgent.includes("Android")
@@ -16,6 +18,7 @@ export function NestedDnd() {
 	return <Provider store={store}>
 		<DndProvider
 			backend={isMobileOs ? TouchBackend : HTML5Backend}>
+			<SectionDnd title="projet.StudioXSL.dnd.title" />
 			<SideBar />
 			<PageLayout />
 			{isMobileOs ? <DraggedPreview /> : null}

@@ -19,8 +19,6 @@ export const StudioXSLDataClass = new ProjectDataClass(
 		"listOfSection": [
 			new SectionProjectDataClass(
 				{
-					title: "projet.StudioXSL.dnd.title",
-					i18nTextId: "projet.StudioXSL.dnd.text",
 					imgUrl: null,
 					technoList: ["React", "Redux", "Redux-ToolKik", "React-Dnd"],
 					componentList: [NestedDnd()]
