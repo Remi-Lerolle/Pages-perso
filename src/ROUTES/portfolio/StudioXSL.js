@@ -1,4 +1,4 @@
-import { React, useContext } from 'react';
+import { React } from 'react';
 import { ProjectDataClass, SectionProjectDataClass } from "../../Classes/ProjectDataClass.tsx"
 import { Project } from './Project.js';
 import xmlIcon from "../../IMG/xml-icon.png"

@@ -22,9 +22,9 @@ const resources = {
 			"Formalizz.SQL.title": "Data base",
 			"Formalizz.SQL.text": "The Formalizz website keeps persisting data thanks to  an SQL database. Its structure allows several companies to use its services by subscription. It provide recording for each company to record its customers, several customers can have one or several vehicule. Each vehicule is linked to an insurance contract. Each vehicule can also have one or several car accident. Each car accident can be linked to couriers sent to the insurance.",
 			"projet.StudioXSL.dnd.title": "Title page using Drag and Drop",
-			"projet.StudioXSL.dnd.text1": "The studio proposes to design title pages for books, articles, chapter... Thanks to a 'user friendly' interface. A side bar is available where the user can find a widget list. Each of those widgets correspond to an element that can be added to the title page. For exemple the title of the book, the most recent révision... The useer just have to drag and drop one of those 'wdigets' on the preview. An additional widget allows to 'group' other widget catégories. Just moving a classical widget on a group. To allow communitation between the side bar and the preview, redux is used. The below example is a mockup used as 'proof of concept'. It is interactiv. You can drag / drop widgets from side bar to the light blue preview area. The below table is updated with the  Redux state. You can consult this code on my github: 'https://github.com/Remi-Lerolle/nested-dnd'",
-			"projet.StudioXSL.dnd.text2": "You can consult this code on ",
-			"projet.StudioXSL.dnd.text3": "my github.",
+			"projet.StudioXSL.dnd.text-1": "The studio proposes to design title pages for books, articles, chapter... Thanks to a 'user friendly' interface. A side bar is available where the user can find a widget list. Each of those widgets correspond to an element that can be added to the title page. For exemple the title of the book, the most recent révision... The useer just have to drag and drop one of those 'wdigets' on the preview. An additional widget allows to 'group' other widget catégories. Just moving a classical widget on a group. To allow communitation between the side bar and the preview, redux is used. The below example is a mockup used as 'proof of concept'. It is interactiv. You can drag / drop widgets from side bar to the light blue preview area. The below table is updated with the  Redux state.",
+			"projet.StudioXSL.dnd.text-2": "You can consult this code on ",
+			"projet.StudioXSL.dnd.text-3": "my github.",
 		}
 	},
 	fr: {
