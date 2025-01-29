@@ -1,13 +1,17 @@
 .sideBar {
-	background-color: lightyellow;
+	border: 1px solid var(--red-cv);
+	color: var(--red-cv);
 	padding: 5px;
 	width: fit-content;
+	background-color: white;
 }
 
 #pageLayoutDiv {
 	height: 500px;
 	padding: 10px;
 	position: relative;
+	border: 1px solid var(--red-cv);
+	color: var(--red-cv);
 }
 
 table {
@@ -21,7 +25,9 @@ table {
 		margin-top: 1rem;
 	}
 
-	.sideBar {}
+	.sideBar {
+		margin: auto;
+	}
 
 	table {
 		margin-top: 1rem;
@@ -48,19 +54,27 @@ table {
 	}
 }
 
-th,
 td {
 	padding: 0.5rem;
 }
 
+tr.headFirst th {
+	padding: 0;
+}
+
+tr.headLast th {
+	padding: 0 0 0.5rem 0;
+}
+
 th {
 	border: none;
-	background-color: grey;
-	color: white;
+	background-color: none;
+	color: var(--bs-gray-dark);
+	text-align: center;
 }
 
 td {
-	border-top: 1px solid black;
+	border-top: 1px solid var(--red-cv);
 }
 
 table p {
@@ -72,6 +86,7 @@ table p {
 	margin: 0.5rem;
 	position: absolute;
 	user-select: none;
+	color: var(--bs-gray-dark);
 }
 
 .simpleWidget {
@@ -81,7 +96,7 @@ table p {
 }
 
 .widgetToDrag:hover {
-	cursor: pointer;
+	cursor: move;
 }
 
 .inGrid {
@@ -94,7 +109,7 @@ table p {
 }
 
 .isGrid {
-	border: 1px solid lightblue;
+	border: 1px solid var(--red-cv);
 }
 
 .isDragging {
@@ -109,20 +124,18 @@ table p {
 	border: none;
 	position: absolute;
 	top: 0;
-	background-color: lightsteelblue;
+	background-color: var(--red-cv);
 	color: white;
 	right: 0px;
 	padding: 0.5rem;
-	height: 2.25rem;
-	cursor: pointer;
 }
 
-.removeWidgetButton:hover {
-	background-color: red;
+.removeWidgetButton:hover~p {
+	color: var(--red-cv)
 }
 
-.spacer {
-	margin-right: 2rem;
+#pageLayoutDiv .widgetToDrag {
+	padding: 0.5rem 2rem 0.5rem 0.5rem;
 }
 
 .isGrid p {

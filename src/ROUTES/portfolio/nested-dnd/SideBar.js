@@ -7,7 +7,7 @@ export function SideBar() {
 		<div
 			className="sideBar">
 			<div
-				style={{ marginBottom: "5px" }} >Side Bar</div>
+				style={{ marginBottom: "5px" }} >Source</div>
 			{
 				Object.keys(ItemTypes)
 					.map(itemKey => {

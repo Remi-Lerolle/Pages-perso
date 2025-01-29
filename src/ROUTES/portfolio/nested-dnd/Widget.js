@@ -87,12 +87,12 @@ export const WidgetToDrag = ({ widgeType, index, indexInGrid = null }) => {
 				<span className="widgetType">{ItemTypes[widgeType]}</span>
 				{index !== null ? ` ${index}` : null}
 				{indexInGrid !== null ? ` - ${indexInGrid}` : null}
-				{widgeType === 'SIMPLEDROPPED' || widgeType === "GROUPDROPPED" || widgeType === "SIMPLENESTED"
-					? <RemoveBt
-						stateHandler={handleRemove}
-						index={index} indexInGrid={indexInGrid} />
-					: null}
 			</p>
+			{widgeType === 'SIMPLEDROPPED' || widgeType === "GROUPDROPPED" || widgeType === "SIMPLENESTED"
+				? <RemoveBt
+					stateHandler={handleRemove}
+					index={index} indexInGrid={indexInGrid} />
+				: null}
 			{indexInGrid === null && thisWidgetObj.children
 				? thisWidgetObj.children.map((_, iInGrid) => <WidgetToDrag
 					key={`grid-${index}-descendant-${iInGrid}`}

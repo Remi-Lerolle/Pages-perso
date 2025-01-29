@@ -1,6 +1,5 @@
 export function RemoveBt({ stateHandler, index, indexInGrid }) {
-	return <><span className="spacer" /><button
+	return <button
 		className="removeWidgetButton"
-		onClick={() => stateHandler(index, indexInGrid)}>x</button>
-	</>
+		onClick={() => stateHandler(index, indexInGrid)}>&times;</button>
 }

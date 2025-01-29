@@ -84,7 +84,7 @@ export function PageLayout() {
 	} else if (collected.highlighted) {
 		backgroundColor = "lightgreen"
 	} else {
-		backgroundColor = "lightcyan"
+		backgroundColor = "white"
 	}
 
 	return (
@@ -94,6 +94,7 @@ export function PageLayout() {
 			style={{
 				backgroundColor: backgroundColor
 			}}>
+			<div>Destination</div>
 			{listOfWidgets ?
 				listOfWidgets.map((dropped, i) => {
 					return (

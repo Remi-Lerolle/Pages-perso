@@ -12,10 +12,10 @@ export function DisplayStateAsTable() {
 
 	return <table>
 		<thead>
-			<tr>
+			<tr className="headFirst">
 				<th colSpan={5}>Redux State</th>
 			</tr>
-			<tr>
+			<tr className="headLast">
 				{
 					itemDescription.map(key =>
 						<th key={`th-${key}`}>{key}</th>)
