@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Container } from "react-bootstrap";
 import i18n from '../../../Translation/i18n';
-import { LangContext } from '../../../App.js'
+import { LangContext } from '../../../App.js';
 
 export function SectionDnd(props) {
 	const title = props.title
