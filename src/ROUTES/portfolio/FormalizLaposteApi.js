@@ -6,14 +6,14 @@ import pictoEnvelopeGreen from '../../IMG/picto-envelope-green.jpg';
 
 export function FormalizLaposteApi() {
 	return <div>
-		<p>Les Utlisateurs du site Formalizz génèrent automatiquement des courriers, associés à un numéro de recommandé.<br />
+		<p>Les Utlisateurs du site Formalizz génèrent automatiquement des courriers, associés à un numéro de recommandé avec accusé de réception (RAR).<br />
 			La fonctionnalité décrite ici permet de connaître en un coup d'œil de statut d'un courrier. </p>
 		<img src={diagramSequenceLaposteAPI} alt="sequence digram la Poste API" width="100%" />
-		<ol>
+		<ol className="callout">
 			<li>Initiation du processus. Un utilisateur visite la page "Liste des clients".</li>
 			<li>La vue demande au contrôleur une liste de 15 clients. </li>
 			<li>Le contrôleur prépare et envoie une requête SQL à la base de données.<br />
-				Requiérant les numéros d'accusés de réception (RAR) de tous les couriers générés pour ce client.</li>
+				Requiérant les numéros RAR  de tous les couriers générés pour ce client.</li>
 			<li>La base de données retourne la liste des clients demandée avec tous les RAR associés.</li>
 			<li>Le contrôleur va comparer les dates des RAR pour ne conserver que le plus récent.<br />
 				Un tableau est contruit convertissant chauqe client en une ligne.<br />
