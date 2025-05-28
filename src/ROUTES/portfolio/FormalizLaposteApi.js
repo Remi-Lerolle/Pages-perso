@@ -27,8 +27,7 @@ export function FormalizLaposteApi(props) {
 		<ol className="callout">
 			<li>{i18n.t("project.Formalizz.API-la-Post-li1-1")}</li>
 			<li>{i18n.t("project.Formalizz.API-la-Post-li2-1")}</li>
-			<li>{i18n.t("project.Formalizz.API-la-Post-li3-1")}<br />
-				{i18n.t("project.Formalizz.API-la-Post-li3-2")}</li>
+			<li>{i18n.t("project.Formalizz.API-la-Post-li3-1")}</li>
 			<li>{i18n.t("project.Formalizz.API-la-Post-li4-1")}</li>
 			<li>{i18n.t("project.Formalizz.API-la-Post-li5-1")}<br />
 				{i18n.t("project.Formalizz.API-la-Post-li5-2")}<br />
