@@ -6,6 +6,9 @@ import pictoEnvelopeGreen from '../../IMG/picto-envelope-green.jpg';
 
 export function FormalizLaposteApi() {
 	return <div>
+		<p>Un échantillon de code est consultable sur <a
+			href="https://github.com/Remi-Lerolle/API_La_Poste/blob/main/classes/customer-class.php"
+			target="_blank">un dépôt public de githbub</a>.</p>
 		<p>Les Utlisateurs du site Formalizz génèrent automatiquement des courriers, associés à un numéro de recommandé avec accusé de réception (RAR).<br />
 			La fonctionnalité décrite ici permet de connaître en un coup d'œil de statut d'un courrier. </p>
 		<img src={diagramSequenceLaposteAPI} alt="sequence digram la Poste API" width="100%" />
