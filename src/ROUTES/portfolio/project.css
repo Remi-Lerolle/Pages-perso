@@ -17,3 +17,27 @@
 	text-align: center;
 	margin-top: 25px;
 }
+
+ol.callout {
+	position: relative;
+	list-style: none;
+	counter-reset: item;
+}
+
+ol.callout li {
+	counter-increment: item;
+	margin-bottom: 0.5rem;
+}
+
+ol.callout li:before {
+	position: absolute;
+	left: -0.4rem;
+	display: block;
+	text-align: center;
+	content: counter(item);
+	background-color: #1A5FB4;
+	color: #ffffff;
+	border-radius: 100%;
+	width: 1.4rem;
+	margin-right: 1rem;
+}
