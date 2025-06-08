@@ -41,3 +41,23 @@ ol.callout li:before {
 	width: 1.4rem;
 	margin-right: 1rem;
 }
+
+.project-card__col {
+	display: flex;
+	align-items: stretch;
+}
+
+.project-card__card {
+	border: 1px solid var(--bs-info);
+}
+
+.project-card__header {
+	background-color: var(--bs-info);
+	color: white;
+}
+
+.project-card__body {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}

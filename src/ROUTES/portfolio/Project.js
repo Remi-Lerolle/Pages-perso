@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Badge, Button, Card, Col, Container, Stack, Image } from 'react-bootstrap';
+import { Badge, Button, Card, Col, Container, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import i18n from '../../Translation/i18n';
 import { LangContext } from '../../App.js'
@@ -50,14 +50,16 @@ export function Project({ data }) {
 
 export function ProjectCard({ data }) {
 	return (
-		<Col sm>
-			<Card className='mt-5'>
-				<Card.Header>
+		<Col sm className="project-card__col">
+			<Card className="mt-5 project-card__card">
+				<Card.Header className="project-card__header" >
 					<Card.Title>{data.title}</Card.Title>
 				</Card.Header>
 				<Card.Img variant="top" src={data.imgUrl} />
-				<Card.Body>
-					{technoListToBadges(composeTechnoList(data.listOfSection), data.title)}
+				<Card.Body className='project-card__body'>
+					<div>
+						{technoListToBadges(composeTechnoList(data.listOfSection), data.title)}
+					</div>
 					<Button className="bg-info border-0 mt-2">
 						<Link
 							className='text-white text-decoration-none'
