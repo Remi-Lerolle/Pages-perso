@@ -55,7 +55,7 @@ const resources = {
 			"Welcome to React": "Bienvenue à React et react-i18next",
 			"Home": "Accueil",
 			"Resume": "Curriculum Vitæ",
-			"RL.personnal.web.pages": "Page perso de Rémi Lerolle",
+			"RL.personnal.web.pages": "Pages perso de Rémi Lerolle",
 			"CV.RL": "Curriculum Vitæ de Rémi Lerolle",
 			"projet.portfolio.description": "Les pages perso, le site que vous visitez actuellement, reflète mon expérience professionnelle.",
 			"project.formalizz.description": "RP Drancy est une entreprise de remplacement de pare-brise. Qui offre la possibilité d'avance des coûts, sous condition de cession de la créance au-près des assurances. Le projet consiste donc à conserver de manière persistante les clients, leurs véhicules, et leurs informations d'assurance.",
