@@ -5,7 +5,7 @@ import { Container, Button } from 'react-bootstrap';
 import CvArticle from './CvArticle';
 import { LangContext } from '../../App.js'
 import i18n from '../../Translation/i18n.js';
-import CVPDF from "../../IMG/cv_Remi_Lerolle_dev-2023.pdf"
+import CVPDF from "../../IMG/cv_Remi_Lerolle.pdf"
 
 export default function Cv() {
 	const lang = useContext(LangContext);

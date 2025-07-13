@@ -1,70 +1,70 @@
 <?xml version='1.0' encoding='UTF-8'?><article xmlns="http://docbook.org/ns/docbook" xmlns:cco="http://www.calenco.com/ns/configurator" xmlns:db="http://docbook.org/ns/docbook" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="fr" version="5.0">
-  <info>
-    <title>Développeur</title>
-    <author>
-      <personname>
-        <firstname>Rémi</firstname>
-        <surname>Lerolle</surname>
-      </personname>
-      <address><phone>+33 6 84 89 52 05</phone>
+	<info>
+		<title>Développeur</title>
+		<author>
+			<personname>
+				<firstname>Rémi</firstname>
+				<surname>Lerolle</surname>
+			</personname>
+			<address><phone>+33 6 84 89 52 05</phone>
 <email>lerolle.remi@gmail.com</email>
 <uri annotations="portfolio :">http://rlerolle.free.fr</uri></address>
-    </author>
-  </info>
-  <section xml:id="section-profil">
-    <title>Profil</title>
-    <simpara>Expérience de 8 années, dont 6 en entreprise et 2 en autoentreprise.</simpara>
-    <simpara>Maîtrise JavaScript, React, XSLT et Bash.</simpara>
-    <simpara>Analyse besoin / cahier des charges.</simpara>
-    <simpara>Relation client.</simpara>
-    <simpara>Rédaction documentation Utilisateur / développeur</simpara>
-    <simpara>Diagrammes fonctionnels / UML / Séquence.</simpara>
-  </section>
-  <section xml:id="section-formation">
-    <title>Formation</title>
-    <itemizedlist role="history" >
-      <listitem>
-        <simpara role="date"><date role="start">2019</date><date role="end">2022</date></simpara>
-        <simpara role="entitled">Certificat administrateur machines en réseau (en cours)</simpara>
-        <simpara role="establishment">CNAM PACA</simpara>
-        <simpara>En cours d'obtention</simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">2016</date><date role="end">2017</date></simpara>
-        <simpara role="entitled">BTS SIO SLAM</simpara>
-        <simpara role="establishment">GRETA Montpellier</simpara>
-        <simpara role="link"><uri annotations="portfolio : ">http://rlerolle.free.fr/sio/portfolio/</uri></simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">2012</date><date role="end">2013</date></simpara>
-        <simpara role="entitled">Perspective</simpara>
-        <simpara role="establishment">Cours du soir</simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">2009</date></simpara>
-        <simpara role="entitled">Programmation Orientée Objet aS3</simpara>
-        <simpara role="establishment">Pyramid</simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">2009</date><date role="end">2013</date></simpara>
-        <simpara role="entitled">inDesign</simpara>
-        <simpara role="establishment">Pyramid</simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">2003</date></simpara>
-        <simpara role="entitled">Chromie</simpara>
-        <simpara role="establishment">MediaGraf</simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">1999</date></simpara>
-        <simpara role="entitled">Licence d’Arts Plastiques</simpara>
-        <simpara role="establishment">Paris I</simpara>
-      </listitem>
-    </itemizedlist>
-  </section>
-  <section xml:id="section-dev-client-lourd">
-    <title>Développement côté serveur</title>
-    <simpara>Installation et configuration :</simpara>
+		</author>
+	</info>
+	<section xml:id="section-profil">
+		<title>Profil</title>
+		<simpara>Expérience de 8 années, dont 6 en entreprise et 2 en autoentreprise.</simpara>
+		<simpara>Maîtrise JavaScript, React, XSLT et Bash.</simpara>
+		<simpara>Analyse besoin / cahier des charges.</simpara>
+		<simpara>Relation client.</simpara>
+		<simpara>Rédaction documentation Utilisateur / développeur</simpara>
+		<simpara>Diagrammes fonctionnels / UML / Séquence.</simpara>
+	</section>
+	<section xml:id="section-formation">
+		<title>Formation</title>
+		<itemizedlist role="history" >
+			<listitem>
+				<simpara role="date"><date role="start">2019</date><date role="end">2022</date></simpara>
+				<simpara role="entitled">Certificat administrateur machines en réseau (en cours)</simpara>
+				<simpara role="establishment">CNAM PACA</simpara>
+				<simpara>En cours d'obtention</simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">2016</date><date role="end">2017</date></simpara>
+				<simpara role="entitled">BTS SIO SLAM</simpara>
+				<simpara role="establishment">GRETA Montpellier</simpara>
+				<simpara role="link"><uri annotations="portfolio : ">http://rlerolle.free.fr/sio/portfolio/</uri></simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">2012</date><date role="end">2013</date></simpara>
+				<simpara role="entitled">Perspective</simpara>
+				<simpara role="establishment">Cours du soir</simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">2009</date></simpara>
+				<simpara role="entitled">Programmation Orientée Objet aS3</simpara>
+				<simpara role="establishment">Pyramid</simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">2009</date><date role="end">2013</date></simpara>
+				<simpara role="entitled">inDesign</simpara>
+				<simpara role="establishment">Pyramid</simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">2003</date></simpara>
+				<simpara role="entitled">Chromie</simpara>
+				<simpara role="establishment">MediaGraf</simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">1999</date></simpara>
+				<simpara role="entitled">Licence d’Arts Plastiques</simpara>
+				<simpara role="establishment">Paris I</simpara>
+			</listitem>
+		</itemizedlist>
+	</section>
+	<section xml:id="section-dev-client-lourd">
+		<title>Développement côté serveur</title>
+		<simpara>Installation et configuration :</simpara>
 		<itemizedlist>
 			<listitem>
 				<simpara>Apache HTTPD</simpara>
@@ -79,143 +79,144 @@
 				<simpara>Serveur Minecraft</simpara>
 			</listitem> 	
 		</itemizedlist>
-  </section>
-  <section xml:id="section-experience">
-    <title>Expérience</title>
-    <itemizedlist role="history" >
-      <title/>
-      <listitem>
-        <simpara role="date"><date role="start">aujourd’hui</date><date role="end">2017</date></simpara>
-        <simpara role="establishment">Neodoc/Calenco</simpara>
-        <simpara role="entitled">Développeur XSLT JavaScript</simpara>
-        <simpara role="description">Personnalisation des feuilles de style Docbook XML / XSLT.</simpara>
-        <simpara role="description">Migration.</simpara>
-        <simpara role="description">Développement studio générateur de XSLT</simpara>
-        <simpara role="description">Support client et interne</simpara>
-        <simpara role="description">Conception de tests</simpara>
-        <simpara role="description">Formations</simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">2017</date><date role="end">2015</date></simpara>
-        <simpara role="establishment">Palavas Design</simpara>
-        <simpara role="entitled">Auto entrepreneur webMaster</simpara>
-        <simpara role="description">Conception de sites Web.</simpara>
-        <simpara></simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">2015</date><date role="end">2014</date></simpara>
-        <simpara role="establishment">Cryopep</simpara>
-        <simpara role="entitled">Développeur wordpress / EasyCatalog</simpara>
-        <simpara role="description">Cross Media designer : Site et catalogues</simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">2014</date></simpara>
-        <simpara role="establishment">CompilSoft</simpara>
-        <simpara role="entitled">Graphiste Easy-Catalog/inDesign</simpara>
-        <simpara role="description">Création de gabarits inDesign pour importation données ODBC</simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">2014</date><date role="end">2012</date></simpara>
-        <simpara role="establishment">Compos-Juliot</simpara>
-        <simpara role="entitled">Référent client</simpara>
-        <simpara role="description">Gestion d’une équipe de 4 à 10 personnes assignés au marketing de Disneyland Paris</simpara>
-        <simpara role="description">Enregistrement des demandes, distribution des dossiers, contact clientèle.</simpara>
-        <simpara role="entitled">Graphiste éxé print / web / PLV</simpara>
-        <simpara role="description">Newsletters, landingPages,  animation Flash (bannières pubs).</simpara>
-        <simpara role="entitled">Chromiste presse hebdo</simpara>
-        <simpara role="description">Pré-presse et retouche photo.</simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">2003</date><date role="end">2000</date></simpara>
-        <simpara role="establishment">Unipag</simpara>
-        <simpara role="entitled">Chromiste presse hebdo</simpara>
-        <simpara role="description">Pré-presse et retouche photo.</simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">2000</date><date role="end">2000</date></simpara>
-        <simpara role="establishment">Objectif 109</simpara>
-        <simpara role="entitled">Infographiste P.L.V.</simpara>
-        <simpara role="description">Packaging - Retouche photo - Habillage meubles et stands</simpara>
-      </listitem>
-      <listitem>
-        <simpara role="date"><date role="start">2000</date><date role="end">1999</date></simpara>
-        <simpara role="establishment">Journal BUT!</simpara>
-        <simpara role="entitled">Assistant maquettiste</simpara>
-        <simpara role="description">Scan et mise en page</simpara>
-      </listitem>
-    </itemizedlist>
-  </section>
-  <section xml:id="section-XML-XSL">
-    <title>XML / XLST</title>
-    <itemizedlist>
-      <listitem>
-        <simpara>Docbook</simpara>
-      </listitem>
-      <listitem>
-        <simpara>Conception XSLT</simpara>
-      </listitem>
-      <listitem>
-        <simpara>XSL-FO</simpara>
-      </listitem>
-      <listitem>
-        <simpara>DTD, Schema</simpara>
-      </listitem>
-      <listitem>
-        <simpara>Migration : </simpara>
-        <itemizedlist>
-          <listitem>
-            <simpara>Framemaker to docbook</simpara>
-          </listitem>
-          <listitem>
-            <simpara>dita to docbook</simpara>
-          </listitem>
-        </itemizedlist>
-      </listitem>
-    </itemizedlist>
-  </section>
-  <section xml:id="front-end-dev">
-    <title>Développement côté client</title>
-    <itemizedlist>
-      <listitem>
-        <simpara>Javascript</simpara>
-      </listitem>
-      <listitem>
-        <simpara>React Redux</simpara>
-      </listitem>
-      <listitem>
-        <simpara>HTML/CSS</simpara>
-      </listitem>
-      <listitem>
-        <simpara>Responsive design</simpara>
-      </listitem>
-      <listitem>
-        <simpara>SEO</simpara>
-      </listitem>
-    </itemizedlist>
-  </section>
-  <section xml:id="android-dev">
-    <title>Développement Android</title>
-    <itemizedlist>
-      <listitem>
-        <simpara>Jetpack Compose</simpara>
-      </listitem>
-      <listitem>
-        <simpara>Kotlin</simpara>
-      </listitem>
-      <listitem>
-        <simpara>Views Model</simpara>
-      </listitem>
-    </itemizedlist>
-  </section>
-  <section xml:id="section-graphisme">
-    <title>Graphisme</title>
-    <itemizedlist>
-      <listitem>
-        <simpara>Photoshop (chromie) / Flash(actionScript)</simpara>
-      </listitem>
-      <listitem>
-        <simpara>Illustrator / Indesing + EasyCatalog</simpara>
-      </listitem>
-    </itemizedlist>
-  </section>
+	</section>
+	<section xml:id="section-experience">
+		<title>Expérience</title>
+		<itemizedlist role="history" >
+			<title/>
+			<listitem>
+				<simpara role="date"><date role="start">aujourd’hui</date><date role="end">2017</date></simpara>
+				<simpara role="establishment">Neodoc/Calenco</simpara>
+				<simpara role="entitled">Développeur React, JS, XSLT</simpara>
+				<simpara role="description">Développement d'une application React JS (générateur de XSLT).</simpara>
+				<simpara role="description">Développement d'applications JS / XML / API REST.</simpara>
+				<simpara role="description">Personnalisation des feuilles de style PDF / WebHelp / HTML.</simpara>
+				<simpara role="description">Migration XML.</simpara>
+				<simpara role="description">Support client et interne.</simpara>
+				<simpara role="description">Conception de tests.</simpara>
+				<simpara role="description">Formations clients / partenaires.</simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">2017</date><date role="end">2015</date></simpara>
+				<simpara role="establishment">Palavas Design</simpara>
+				<simpara role="entitled">Auto entrepreneur webMaster</simpara>
+				<simpara role="description">Conception de sites Web.</simpara>
+				<simpara></simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">2015</date><date role="end">2014</date></simpara>
+				<simpara role="establishment">Cryopep</simpara>
+				<simpara role="entitled">Développeur wordpress / EasyCatalog</simpara>
+				<simpara role="description">Cross Media designer : Site et catalogues</simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">2014</date></simpara>
+				<simpara role="establishment">CompilSoft</simpara>
+				<simpara role="entitled">Graphiste Easy-Catalog/inDesign</simpara>
+				<simpara role="description">Création de gabarits inDesign pour importation données ODBC</simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">2014</date><date role="end">2012</date></simpara>
+				<simpara role="establishment">Compos-Juliot</simpara>
+				<simpara role="entitled">Référent client</simpara>
+				<simpara role="description">Gestion d’une équipe de 4 à 10 personnes assignés au marketing de Disneyland Paris</simpara>
+				<simpara role="description">Enregistrement des demandes, distribution des dossiers, contact clientèle.</simpara>
+				<simpara role="entitled">Graphiste éxé print / web / PLV</simpara>
+				<simpara role="description">Newsletters, landingPages,  animation Flash (bannières pubs).</simpara>
+				<simpara role="entitled">Chromiste presse hebdo</simpara>
+				<simpara role="description">Pré-presse et retouche photo.</simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">2003</date><date role="end">2000</date></simpara>
+				<simpara role="establishment">Unipag</simpara>
+				<simpara role="entitled">Chromiste presse hebdo</simpara>
+				<simpara role="description">Pré-presse et retouche photo.</simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">2000</date><date role="end">2000</date></simpara>
+				<simpara role="establishment">Objectif 109</simpara>
+				<simpara role="entitled">Infographiste P.L.V.</simpara>
+				<simpara role="description">Packaging - Retouche photo - Habillage meubles et stands</simpara>
+			</listitem>
+			<listitem>
+				<simpara role="date"><date role="start">2000</date><date role="end">1999</date></simpara>
+				<simpara role="establishment">Journal BUT!</simpara>
+				<simpara role="entitled">Assistant maquettiste</simpara>
+				<simpara role="description">Scan et mise en page</simpara>
+			</listitem>
+		</itemizedlist>
+	</section>
+	<section xml:id="section-XML-XSL">
+		<title>XML / XLST</title>
+		<itemizedlist>
+			<listitem>
+				<simpara>Docbook</simpara>
+			</listitem>
+			<listitem>
+				<simpara>Conception XSLT</simpara>
+			</listitem>
+			<listitem>
+				<simpara>XSL-FO</simpara>
+			</listitem>
+			<listitem>
+				<simpara>DTD, Schema</simpara>
+			</listitem>
+			<listitem>
+				<simpara>Migration : </simpara>
+				<itemizedlist>
+					<listitem>
+						<simpara>Framemaker to docbook</simpara>
+					</listitem>
+					<listitem>
+						<simpara>dita to docbook</simpara>
+					</listitem>
+				</itemizedlist>
+			</listitem>
+		</itemizedlist>
+	</section>
+	<section xml:id="front-end-dev">
+		<title>Développement côté client</title>
+		<itemizedlist>
+			<listitem>
+				<simpara>Javascript</simpara>
+			</listitem>
+			<listitem>
+				<simpara>React Redux</simpara>
+			</listitem>
+			<listitem>
+				<simpara>HTML/CSS</simpara>
+			</listitem>
+			<listitem>
+				<simpara>Responsive design</simpara>
+			</listitem>
+			<listitem>
+				<simpara>SEO</simpara>
+			</listitem>
+		</itemizedlist>
+	</section>
+	<section xml:id="android-dev">
+		<title>Développement Android</title>
+		<itemizedlist>
+			<listitem>
+				<simpara>Jetpack Compose</simpara>
+			</listitem>
+			<listitem>
+				<simpara>Kotlin</simpara>
+			</listitem>
+			<listitem>
+				<simpara>Views Model</simpara>
+			</listitem>
+		</itemizedlist>
+	</section>
+	<section xml:id="section-graphisme">
+		<title>Graphisme</title>
+		<itemizedlist>
+			<listitem>
+				<simpara>Photoshop (chromie) / Flash(actionScript)</simpara>
+			</listitem>
+			<listitem>
+				<simpara>Illustrator / Indesing + EasyCatalog</simpara>
+			</listitem>
+		</itemizedlist>
+	</section>
 </article>
