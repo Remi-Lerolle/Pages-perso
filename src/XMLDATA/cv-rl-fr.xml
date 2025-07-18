@@ -13,8 +13,8 @@
 	</info>
 	<section xml:id="section-profil">
 		<title>Profil</title>
-		<simpara>Expérience de 8 années, dont 6 en entreprise et 2 en autoentreprise.</simpara>
-		<simpara>Maîtrise JavaScript, React, XSLT et Bash.</simpara>
+		<simpara>8 années d’expérience dont 6 en entreprise et 2 en tant qu’autoentrepreneur.</simpara>
+		<simpara>Maîtrise React, JavaScript, XSLT et Bash.</simpara>
 		<simpara>Analyse besoin / cahier des charges.</simpara>
 		<simpara>Relation client.</simpara>
 		<simpara>Rédaction documentation Utilisateur / développeur</simpara>
@@ -25,7 +25,8 @@
 		<itemizedlist role="history" >
 			<listitem>
 				<simpara role="date"><date role="start">2019</date><date role="end">2022</date></simpara>
-				<simpara role="entitled">Certificat administrateur machines en réseau (en cours)</simpara>
+				<simpara role="entitled">C.A.M.R (en cours)</simpara>
+				<simpara role="sub-entitled">Certificat administrateur machines en réseau (en cours)</simpara>
 				<simpara role="establishment">CNAM PACA</simpara>
 				<simpara>En cours d'obtention</simpara>
 			</listitem>
