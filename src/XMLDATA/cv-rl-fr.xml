@@ -65,19 +65,25 @@
 	</section>
 	<section xml:id="section-dev-client-lourd">
 		<title>Développement côté serveur</title>
-		<simpara>Installation et configuration :</simpara>
 		<itemizedlist>
 			<listitem>
 				<simpara>Apache HTTPD</simpara>
+				<simpara>Installation configuration</simpara>
 			</listitem> 	
 			<listitem>
 				<simpara>SQL</simpara>
+				<simpara>Installation configuration</simpara>
+				<simpara>Triggers / Fonctions stockées</simpara>
+				<simpara>Requêtes imbriqueés, Views, CRUDE</simpara>
+				<simpara>Gestion des utilisateurs / droits</simpara>
 			</listitem> 	
 			<listitem>
 				<simpara>PHP</simpara>
+				<simpara>PDO, POO, PHP MAIL</simpara>
 			</listitem>
 			<listitem>
 				<simpara>Serveur Minecraft</simpara>
+				<simpara>Installation configuration</simpara>
 			</listitem> 	
 		</itemizedlist>
 	</section>
@@ -177,35 +183,65 @@
 	</section>
 	<section xml:id="front-end-dev">
 		<title>Développement côté client</title>
+
+		<simpara>React JS</simpara>
 		<itemizedlist>
 			<listitem>
-				<simpara>Javascript</simpara>
+				<simpara>Redux</simpara>
+			</listitem>						
+			<listitem>
+				<simpara>React Router</simpara>
 			</listitem>
 			<listitem>
-				<simpara>React Redux</simpara>
+				<simpara>Redux</simpara>
+			</listitem>									
+		</itemizedlist>
+		
+		<simpara>Javascript</simpara>
+		<itemizedlist>
+			<listitem>
+				<simpara>TypeScript</simpara>
 			</listitem>
 			<listitem>
-				<simpara>HTML/CSS</simpara>
+				<simpara>DOM</simpara>
 			</listitem>
+			<listitem>
+				<simpara>ECMAScript</simpara>
+			</listitem>
+			<listitem>
+				<simpara>API REST (appels, traitements)</simpara>
+			</listitem>
+			<listitem>
+				<simpara>Programmation asychrone XHR, Promises, fetch / await</simpara>
+			</listitem>
+			<listitem>
+				<simpara>Programmation Orientée Objet &amp; Prototypage</simpara>
+			</listitem>
+		</itemizedlist>
+
+		<simpara>HTML/CSS</simpara>
+		<itemizedlist>
 			<listitem>
 				<simpara>Responsive design</simpara>
 			</listitem>
 			<listitem>
 				<simpara>SEO</simpara>
-			</listitem>
+			</listitem>		
 		</itemizedlist>
+	
 	</section>
+	
 	<section xml:id="android-dev">
 		<title>Développement Android</title>
 		<itemizedlist>
 			<listitem>
-				<simpara>Jetpack Compose</simpara>
+				<simpara>Jetpack Compose / Views Model</simpara>
 			</listitem>
 			<listitem>
-				<simpara>Kotlin</simpara>
+				<simpara>Kotlin / Java</simpara>
 			</listitem>
 			<listitem>
-				<simpara>Views Model</simpara>
+				<simpara>Android Studio</simpara>
 			</listitem>
 		</itemizedlist>
 	</section>
@@ -213,10 +249,16 @@
 		<title>Graphisme</title>
 		<itemizedlist>
 			<listitem>
-				<simpara>Photoshop (chromie) / Flash(actionScript)</simpara>
+				<simpara>Photoshop (chromie)</simpara>
 			</listitem>
 			<listitem>
-				<simpara>Illustrator / Indesing + EasyCatalog</simpara>
+				<simpara>Flash(actionScript)</simpara>
+			</listitem>
+			<listitem>
+				<simpara>Illustrator</simpara>
+			</listitem>
+			<listitem>
+				<simpara>Indesing + EasyCatalog</simpara>
 			</listitem>
 		</itemizedlist>
 	</section>
