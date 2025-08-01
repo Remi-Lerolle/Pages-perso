@@ -1,27 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?><article xmlns="http://docbook.org/ns/docbook" xmlns:cco="http://www.calenco.com/ns/configurator" xmlns:db="http://docbook.org/ns/docbook" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="fr" version="5.0">
-	<info>
-		<title>Développeur</title>
-		<author>
-			<personname>
-				<firstname>Rémi</firstname>
-				<surname>Lerolle</surname>
-			</personname>
-			<address><phone>+33 6 84 89 52 05</phone>
-<email>lerolle.remi@gmail.com</email>
-<uri annotations="portfolio :">http://rlerolle.free.fr</uri></address>
-		</author>
-	</info>
-	<section xml:id="section-profil">
-		<title>Profil</title>
-		<simpara>8 années d’expérience dont 6 en entreprise et 2 en tant qu’autoentrepreneur.</simpara>
-		<simpara>Maîtrise React, JavaScript, XSLT et Bash.</simpara>
-		<simpara>Analyse besoin / cahier des charges.</simpara>
-		<simpara>Relation client.</simpara>
-		<simpara>Rédaction documentation Utilisateur / développeur</simpara>
-		<simpara>Diagrammes fonctionnels / UML / Séquence.</simpara>
-	</section>
-	<section xml:id="section-formation">
-		<title>Formation</title>
+<info>
+	<title>Développeur</title>
+	<author>
+		<personname>
+			<firstname>Rémi</firstname>
+			<surname>Lerolle</surname>
+		</personname>
+		<address><phone>+33 6 84 89 52 05</phone>
+		<email>lerolle.remi@gmail.com</email>
+		<uri annotations="portfolio :">http://rlerolle.free.fr</uri>
+		<uri annotations="github :">https://github.com/Remi-Lerolle</uri></address>
+	</author>
+</info>
+<section xml:id="section-profil">
+	<title>Profil</title>
+	<simpara>8 années d’expérience dont 6 en entreprise et 2 en tant qu’autoentrepreneur.</simpara>
+	<simpara>Maîtrise React, JavaScript, XSLT et Bash.</simpara>
+	<simpara>Analyse besoin / cahier des charges.</simpara>
+	<simpara>Relation client.</simpara>
+	<simpara>Rédaction documentation Utilisateur / développeur</simpara>
+	<simpara>Diagrammes fonctionnels / UML / Séquence.</simpara>
+</section>
+<section xml:id="section-formation">
+	<title>Formation</title>
 		<itemizedlist role="history" >
 			<listitem>
 				<simpara role="date"><date role="start">2019</date><date role="end">2022</date></simpara>
