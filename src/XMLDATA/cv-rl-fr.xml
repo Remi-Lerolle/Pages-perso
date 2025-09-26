@@ -27,15 +27,14 @@
 			<listitem>
 				<simpara role="date"><date role="start">2019</date><date role="end">2022</date></simpara>
 				<simpara role="entitled">C.A.M.R (en cours)</simpara>
-				<simpara role="sub-entitled">Certificat administrateur machines en réseau (en cours)</simpara>
-				<simpara role="establishment">CNAM PACA</simpara>
-				<simpara>En cours d'obtention</simpara>
+				<simpara role="sub-entitled">Certificat administrateur machines en réseau</simpara>
+				<simpara role="establishment">CNAM PACA - En cours d'obtention</simpara>
 			</listitem>
 			<listitem>
 				<simpara role="date"><date role="start">2016</date><date role="end">2017</date></simpara>
 				<simpara role="entitled">BTS SIO SLAM</simpara>
 				<simpara role="establishment">GRETA Montpellier</simpara>
-				<simpara role="link"><uri annotations="portfolio : ">http://rlerolle.free.fr/sio/portfolio/</uri></simpara>
+				<simpara role="establishment"><uri annotations="portfolio : ">http://rlerolle.free.fr/sio/portfolio/</uri></simpara>
 			</listitem>
 			<listitem>
 				<simpara role="date"><date role="start">2012</date><date role="end">2013</date></simpara>
@@ -70,14 +69,14 @@
 			<listitem>
 				<simpara>Apache HTTPD</simpara>
 				<simpara>Installation configuration</simpara>
-			</listitem> 	
+			</listitem>
 			<listitem>
 				<simpara>SQL</simpara>
 				<simpara>Installation configuration</simpara>
 				<simpara>Triggers / Fonctions stockées</simpara>
 				<simpara>Requêtes imbriqueés, Views, CRUDE</simpara>
 				<simpara>Gestion des utilisateurs / droits</simpara>
-			</listitem> 	
+			</listitem>
 			<listitem>
 				<simpara>PHP</simpara>
 				<simpara>PDO, POO, PHP MAIL</simpara>
@@ -85,7 +84,7 @@
 			<listitem>
 				<simpara>Serveur Minecraft</simpara>
 				<simpara>Installation configuration</simpara>
-			</listitem> 	
+			</listitem>
 		</itemizedlist>
 	</section>
 	<section xml:id="section-experience">
@@ -124,7 +123,7 @@
 				<simpara role="description">Création de gabarits inDesign pour importation données ODBC</simpara>
 			</listitem>
 			<listitem>
-				<simpara role="date"><date role="start">2014</date><date role="end">2012</date></simpara>
+				<simpara role="date"><date role="start">2003</date><date role="end">2014</date></simpara>
 				<simpara role="establishment">Compos-Juliot</simpara>
 				<simpara role="entitled">Référent client</simpara>
 				<simpara role="description">Gestion d’une équipe de 4 à 10 personnes assignés au marketing de Disneyland Paris</simpara>
@@ -167,7 +166,7 @@
 				<simpara>XSL-FO</simpara>
 			</listitem>
 			<listitem>
-				<simpara>DTD, Schema</simpara>
+				<simpara>DTD, XSD Schema</simpara>
 			</listitem>
 			<listitem>
 				<simpara>Migration : </simpara>
@@ -189,15 +188,12 @@
 		<itemizedlist>
 			<listitem>
 				<simpara>Redux</simpara>
-			</listitem>						
+			</listitem>
 			<listitem>
 				<simpara>React Router</simpara>
 			</listitem>
-			<listitem>
-				<simpara>Redux</simpara>
-			</listitem>									
 		</itemizedlist>
-		
+
 		<simpara>Javascript</simpara>
 		<itemizedlist>
 			<listitem>
@@ -223,15 +219,18 @@
 		<simpara>HTML/CSS</simpara>
 		<itemizedlist>
 			<listitem>
-				<simpara>Responsive design</simpara>
+				<simpara>Responsive design / Media queries</simpara>
+			</listitem>
+			<listitem>
+				<simpara>BEM</simpara>
 			</listitem>
 			<listitem>
 				<simpara>SEO</simpara>
-			</listitem>		
+			</listitem>
 		</itemizedlist>
-	
+
 	</section>
-	
+
 	<section xml:id="android-dev">
 		<title>Développement Android</title>
 		<itemizedlist>
