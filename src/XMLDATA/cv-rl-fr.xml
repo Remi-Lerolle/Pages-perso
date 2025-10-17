@@ -92,7 +92,7 @@
 		<itemizedlist role="history" >
 			<title/>
 			<listitem>
-				<simpara role="date"><date role="start">aujourd’hui</date><date role="end">2017</date></simpara>
+				<simpara role="date"><date role="start">2025</date><date role="end">2017</date></simpara>
 				<simpara role="establishment">Neodoc/Calenco</simpara>
 				<simpara role="entitled">Développeur React, JS, XSLT</simpara>
 				<simpara role="description">Développement d'une application React JS (générateur de XSLT).</simpara>
@@ -184,8 +184,8 @@
 	<section xml:id="front-end-dev">
 		<title>Développement côté client</title>
 
-		<simpara>React JS</simpara>
 		<itemizedlist>
+			<title>React JS</title>
 			<listitem>
 				<simpara>Redux</simpara>
 			</listitem>
@@ -194,8 +194,8 @@
 			</listitem>
 		</itemizedlist>
 
-		<simpara>Javascript</simpara>
 		<itemizedlist>
+			<title>Javascript</title>
 			<listitem>
 				<simpara>TypeScript</simpara>
 			</listitem>
@@ -216,8 +216,8 @@
 			</listitem>
 		</itemizedlist>
 
-		<simpara>HTML/CSS</simpara>
 		<itemizedlist>
+			<title>HTML/CSS</title>
 			<listitem>
 				<simpara>Responsive design / Media queries</simpara>
 			</listitem>
