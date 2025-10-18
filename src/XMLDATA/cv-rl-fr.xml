@@ -15,7 +15,7 @@
 <section xml:id="section-profil">
 	<title>Profil</title>
 	<simpara>8 années d’expérience dont 6 en entreprise et 2 en tant qu’autoentrepreneur.</simpara>
-	<simpara>Maîtrise React, JavaScript, XSLT et Bash.</simpara>
+	<simpara>Expert React, JavaScript et XSLT.</simpara>
 	<simpara>Analyse besoin / cahier des charges.</simpara>
 	<simpara>Relation client.</simpara>
 	<simpara>Rédaction documentation Utilisateur / développeur</simpara>
@@ -26,7 +26,7 @@
 		<itemizedlist role="history" >
 			<listitem>
 				<simpara role="date"><date role="start">2019</date><date role="end">2022</date></simpara>
-				<simpara role="entitled">C.A.M.R (en cours)</simpara>
+				<simpara role="entitled">C.A.M.R.</simpara>
 				<simpara role="sub-entitled">Certificat administrateur machines en réseau</simpara>
 				<simpara role="establishment">CNAM PACA - En cours d'obtention</simpara>
 			</listitem>
@@ -235,7 +235,10 @@
 		<title>Développement Android</title>
 		<itemizedlist>
 			<listitem>
-				<simpara>Jetpack Compose / Views Model</simpara>
+				<simpara>Jetpack Compose</simpara>
+			</listitem>
+			<listitem>
+				<simpara>Views Model</simpara>
 			</listitem>
 			<listitem>
 				<simpara>Kotlin / Java</simpara>
@@ -250,9 +253,6 @@
 		<itemizedlist>
 			<listitem>
 				<simpara>Photoshop (chromie)</simpara>
-			</listitem>
-			<listitem>
-				<simpara>Flash(actionScript)</simpara>
 			</listitem>
 			<listitem>
 				<simpara>Illustrator</simpara>

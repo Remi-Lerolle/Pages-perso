@@ -7,14 +7,15 @@
         <surname>Lerolle</surname>
       </personname>
       <address><phone>+33 6 84 89 52 05</phone>
-<email>lerolle.remi@gmail.com</email>
-<uri annotations="portfolio :">http://rlerolle.free.fr</uri></address>
+			<email>lerolle.remi@gmail.com</email>
+			<uri annotations="portfolio:">http://rlerolle.free.fr</uri>
+			<uri annotations="github:">https://github.com/Remi-Lerolle</uri></address>
     </author>
   </info>
   <section xml:id="section-profil">
     <title>Profile</title>
     <simpara>8 years of experience, 6 in business and 2 as a self-employed person.</simpara>
-    <simpara>JavaScript, XSLT and Bash expert.</simpara>
+    <simpara>JavaScript, React and XSLT expert.</simpara>
     <simpara>Requirements Analysis / Statement of Work</simpara>
     <simpara>Customer Relationship</simpara>
     <simpara>User / developer Documentation Writing</simpara>
@@ -25,15 +26,15 @@
     <itemizedlist role="history" >
       <listitem>
         <simpara role="date"><date role="start">2019</date><date role="end">2022</date></simpara>
-        <simpara role="entitled">Network Systems Administrator Certificate</simpara>
-        <simpara role="establishment">CNAM PACA</simpara>
-        <simpara>Currently Pursuing</simpara>
+        <simpara role="entitled">N.S.A.C.</simpara>
+        <simpara role="sub-entitled">Network Systems Administrator Certificate</simpara>
+        <simpara role="establishment">CNAM PACA - Currently Pursuing</simpara>
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2016</date><date role="end">2017</date></simpara>
         <simpara role="entitled">BTS SIO SLAM</simpara>
         <simpara role="establishment">GRETA Montpellier</simpara>
-        <simpara role="link"><uri annotations="portfolio: ">http://rlerolle.free.fr/sio/portfolio/</uri></simpara>
+        <simpara role="establishment"><uri annotations="portfolio: ">http://rlerolle.free.fr/sio/portfolio/</uri></simpara>
       </listitem>
       <listitem>
         <simpara role="date"><date role="start">2012</date><date role="end">2013</date></simpara>
@@ -63,21 +64,27 @@
     </itemizedlist>
   </section>
   <section xml:id="section-dev-client-lourd">
-    <title>Back End Development</title>
-    <simpara>Installation and configuration :</simpara>
+    <title>Server Side Development</title>
 		<itemizedlist>
 			<listitem>
 				<simpara>Apache HTTPD</simpara>
-			</listitem> 	
+				<simpara>Installation and configuration</simpara>
+			</listitem>
 			<listitem>
 				<simpara>SQL</simpara>
-			</listitem> 	
+				<simpara>Installation and configuration</simpara>
+				<simpara>Triggers / Stored functions</simpara>
+				<simpara>Nested queries, Views, CRUDE</simpara>
+				<simpara>User management / granted rights</simpara>
+			</listitem>
 			<listitem>
 				<simpara>PHP</simpara>
+				<simpara>PDO, POO, PHP MAIL</simpara>				
 			</listitem>
 			<listitem>
 				<simpara>Minecraft Server</simpara>
-			</listitem> 	
+				<simpara>Installation and configuration</simpara>
+			</listitem>
 		</itemizedlist>
     <simpara/>
   </section>
@@ -86,7 +93,7 @@
     <itemizedlist role="history" >
       <title/>
       <listitem>
-        <simpara role="date"><date role="start">aujourd’hui</date><date role="end">2017</date></simpara>
+        <simpara role="date"><date role="start">2025</date><date role="end">2017</date></simpara>
         <simpara role="establishment">Neodoc/Calenco</simpara>
         <simpara role="entitled">Développeur XSLT JavaScript</simpara>
         <simpara role="description">Personnalisation des feuilles de style Docbook XML / XSLT.</simpara>
@@ -195,27 +202,33 @@
     </itemizedlist>
   </section>
   <section xml:id="android-dev">
-    <title>Android</title>
+    <title>Android Development</title>
     <itemizedlist>
       <listitem>
         <simpara>Jetpack Compose</simpara>
       </listitem>
       <listitem>
-        <simpara>Kotlin</simpara>
-      </listitem>
-      <listitem>
         <simpara>Views Model</simpara>
       </listitem>
+      <listitem>
+        <simpara>Kotlin / Java</simpara>
+      </listitem>
+			<listitem>
+				<simpara>Android Studio</simpara>
+			</listitem>
     </itemizedlist>
   </section>
   <section xml:id="section-graphisme">
     <title>Graphic Design</title>
     <itemizedlist>
       <listitem>
-        <simpara>Photoshop (Colorimetric Calibration of Images) / Flash(actionScript)</simpara>
+        <simpara>Photoshop Colorimetric Calibration of Images</simpara>
       </listitem>
       <listitem>
-        <simpara>Illustrator / Indesing + EasyCatalog</simpara>
+        <simpara>Indesing + EasyCatalog</simpara>
+      </listitem>
+      <listitem>
+        <simpara>Illustrator / Inkscape</simpara>
       </listitem>
     </itemizedlist>
   </section>
