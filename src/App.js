@@ -24,8 +24,11 @@ function App() {
 	const [expanded, setExpanded] = useState(false);
 
 	function handleClickLang(langValue) {
+		document.documentElement.lang = langValue;
 		setLangState(langValue);
 	}
+
+	document.documentElement.lang = lang;
 
 	return (
 		<LangContext.Provider value={lang}>
