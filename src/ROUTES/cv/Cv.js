@@ -5,7 +5,9 @@ import { Container, Button } from 'react-bootstrap';
 import CvArticle from './CvArticle';
 import { LangContext } from '../../App.js'
 import i18n from '../../Translation/i18n.js';
-import CVPDF from "../../IMG/cv_Remi_Lerolle.pdf"
+import CVPDFfr from "../../IMG/cv_Remi_Lerolle-fr.pdf"
+import CVPDFen from "../../IMG/cv_Remi_Lerolle-en.pdf"
+
 
 export default function Cv() {
 	const lang = useContext(LangContext);
@@ -37,7 +39,7 @@ export default function Cv() {
 			{xmlData
 				? <CvArticle xmlResponse={xmlData} />
 				: null}
-			<a href={CVPDF} target='_blank'>
+			<a href={lang === "fr" ? CVPDFfr : CVPDFen} target='_blank'>
 				<Button >PDF</Button>
 			</a>
 		</Container>
