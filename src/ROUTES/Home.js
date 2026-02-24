@@ -11,7 +11,12 @@ function Home() {
 	return <>
 		<Container >
 			<Row>
-				<h1>{i18n.t('RL.personnal.web.pages')}</h1>
+				<h1 class="home-h1">
+					<span class="home-h1__span--big1">Pages perso</span><br/>
+					<span class="home-h1__span--small">de </span>
+					<span class="home-h1__span--big2">Rémi Lerolle</span>
+				</h1>
+				{/*i18n.t('RL.personnal.web.pages')*/}
 			</Row>
 		</Container>
 

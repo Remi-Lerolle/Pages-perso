@@ -101,3 +101,20 @@ span.section-title__reminding-letters {
 .paraLink a {
 	text-decoration: none;
 }
+
+.home-h1{
+	position: absolute;
+	margin-top: 10rem;
+}
+
+.home-h1__span--big1{
+	font-size: 9.5rem;
+}
+
+.home-h1__span--small{
+	font-size: 5rem;
+}
+
+.home-h1__span--big2{
+	font-size: 8rem;
+}
