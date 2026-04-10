@@ -104,17 +104,28 @@ span.section-title__reminding-letters {
 
 .home-h1{
 	position: absolute;
-	margin-top: 10rem;
 }
 
-.home-h1__span--big1{
-	font-size: 9.5rem;
+@media ( width < 402px ) {
+
+	.home-h1__span--small{
+		font-size: 1rem;
+	}
+
 }
 
-.home-h1__span--small{
-	font-size: 5rem;
-}
+@media ( width > 402px  ) {
 
-.home-h1__span--big2{
-	font-size: 8rem;
+	.home-h1__span--big1{
+		font-size: 9.5rem;
+	}
+
+	.home-h1__span--small{
+		font-size: 5rem;
+	}
+
+	.home-h1__span--big2{
+		font-size: 8rem;
+	}
+
 }
